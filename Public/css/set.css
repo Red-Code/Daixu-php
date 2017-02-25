@@ -1,0 +1,181 @@
+/*  begin--最左边内容顶部 */
+.content_left_top_set{
+	width: 690px;
+    height: 50px;
+    background:#fff;
+}
+
+.content_left_top_set li{
+	width: 80px;
+	line-height: 50px;
+	margin-left: 45px;
+	text-align: center;
+	color: #5c5d5e;
+	font-size: 14px;
+	font-weight: bold;
+	cursor:pointer;
+}
+#all_set .this_set{
+	color: #51a47a;
+	border-bottom: 2px solid #51a47a;
+}
+.content_left_top_set li:hover{
+	color: #51a47a;
+	border-bottom: 2px solid #51a47a;
+}
+/*  finish--最左边内容顶部 */
+
+/* 左边消息内容 begin */
+#for_obtain_div{
+	width: 690px;
+	height: 800px;
+	background: #fff;
+	margin-top: 15px;
+	padding-top: 30px;
+}
+#personal_info,#news_set,#privacy_set,#accounts_security,#password_modify{
+	width: 570px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#for_obtain_div .hide_box{
+	display: none;
+}
+#for_obtain_div>div>ul>li{
+	height: 120px;
+	width: 570px;
+	border-top: 2px solid #ccc;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+/* 专属-账号设置里面的内容 begin */
+#personal_info .basic_info{
+	width: 100%;
+	height: 150px;
+	border-top: 2px solid #ccc;
+	margin-top: 20px;
+	padding: 20px 0 0 30px;
+	line-height: 40px;
+}
+.basic_info textarea{
+	vertical-align: top;
+	width: 280px;
+	height: 100px;
+}
+.basic_info img{
+	float: right;
+	margin-right: 40px;
+	width: 150px;
+	height: 145px;
+}
+#for_obtain_div>#personal_info ul li{
+	width: 600px;
+	height: 40px;
+	border: none;
+}
+#for_obtain_div>#personal_info ul li select{
+	padding-left: 20px;
+}
+#for_obtain_div>#personal_info ul li:nth-child(3){
+    margin-left: -23px;
+}
+#for_obtain_div>#personal_info li span{
+	width: 120px;
+	margin: 0 20px;
+}
+#personal_info>form{
+	margin-top: 80px;
+}
+#personal_info>form>button{
+	width: 70px;
+	height:35px;
+	color: #fff;
+	background: #51a47a;
+	border:none;
+	cursor: pointer;
+	display: block;
+	margin-left: 80%;
+}
+#personal_info>form>span{
+	margin-right: 40px;
+}
+#personal_info>form>span{
+	font-style: italic;
+	font-size:15px;
+	color: gray;
+}
+#personal_info>form>input{
+	/*background: #51a47a;*/
+}
+/* 专属-账号设置里面的内容 finish */
+
+/* 专属-账号安全里面的内容 begin */
+#for_obtain_div>#accounts_security li{
+	height: 80px;
+}
+#for_obtain_div>#accounts_security li span{
+	margin-right: 45px;
+	width: 140px;
+	margin-top: 30px;
+}
+/* 专属-账号安全里面的内容 finish */
+
+/* 专属-密码修改里面的内容 begin */
+#for_obtain_div>#password_modify ul li:nth-child(1){
+	border-top: 2px solid #ccc;
+}
+#for_obtain_div>#password_modify li{
+	height: 40px;
+	border: none; 
+}
+
+#password_modify #verify{
+    height: 40px;
+    width: 100px;
+    background: #26A863;
+    line-height: 40px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+#password_modify #remind_info{
+	font-size: 12px;
+	color:#A6A6A6;
+	font-style: normal;
+}
+/* 专属-密码修改里面的内容 finish */
+
+#for_obtain_div>div>ul>li>p{
+	font-size: 16px;
+	line-height: 60px;
+}
+#for_obtain_div>div>ul>li span{
+	margin-right: 70px;
+	width: 200px;
+	height: 30px;
+	display: inline-block;
+}
+.gray_color{
+	color: #A6A6A6;
+}
+.green_pointer{
+	cursor: pointer;
+	color: #51a47a;
+}
+#preserve{
+	width: 100px;
+	height: 40px;
+	background: #25A961;
+	margin-top: 100px;
+	margin-left: 200px;
+	color: #fff;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	cursor: pointer;
+	border:none;
+}
+/* 左边消息内容 finish */

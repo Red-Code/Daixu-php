@@ -1,0 +1,543 @@
+/* public begin */
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* public finish */
+
+/* wrap begin 主体包裹层*/
+.wrap{
+	width: 1010px;
+	margin: 0 auto;
+	background: #E4E4E6;
+	padding-left: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+/* content_left begin 页面主体左边内容区*/
+.content_left{
+	width: 690px;
+	/* 	height: 1500px; */
+	float: left;
+	margin-top: 15px;
+}
+
+/* left_slideImg  begin--最左边轮播图片 */
+
+#left_slideImg{
+	width: 690px;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+}
+
+#list{
+	width: 4920px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+#list img{
+	float: left;
+	height: 180px;
+	width: 690px;
+}
+
+#buttons{
+	position: absolute;
+	height: 10px;
+	width: 100px;
+	z-index: 2;
+	bottom: 20px;
+	left: 250px;
+}
+#buttons span{
+	cursor: pointer;
+	float: left;
+	border: 1px solid #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #333;
+	margin-right: 5px;
+}
+#buttons .on{
+	background: orangered;
+}
+.arrow{
+	cursor: pointer;
+	display: block;
+	line-height: 39px;
+	text-align: center;
+	font-size: 36px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	background-color: RGBA(0,0,0,.3);
+	color: #fff;
+}
+.arrow:hover{
+	background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow{
+	display: block;
+}
+#prev{
+	left: 20px;
+}
+#next{
+	right: 20px;
+}
+/* left_slideImg  finish--最左边轮播图片 */
+
+/* 页面主体左边读者发布内容块  begin */
+.publish_content{
+	width: 690px;
+	background:#fff;
+	margin-top: 15px;
+}
+.publish_content_top{
+	height: 40px;
+	width: 640px;
+	/*     border:1px solid red; */
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.publish_content_top h3:hover,.publish_content_center h1:hover,.publish_content_bottom_right span:hover{
+	color: #51a47a;
+	cursor: pointer;
+}
+.publish_content_top img{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+}
+.publish_content_top h3{
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	vertical-align: bottom;
+	display: block;
+	margin-top: 10px;
+	color: #A9A9A9;
+}
+.publish_content_top .add{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.publish_content_center{
+	height: 175px;
+	width: 400px;
+	/*border:1px solid red;*/
+	margin-left: 240px;
+	margin-top: 10px;
+	position: relative;
+	padding:0 10px 20px 30px;
+}
+.publish_content_center img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:0;
+	left:-200px;
+	/*float: left;*/
+	/*margin-right: 20px;*/
+}
+.publish_content_center h1{
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+.publish_content_center .article_description{
+	/*border:1px solid gray;*/
+	overflow: hidden;
+	width: 390px;
+	height: 140px;
+	line-height: 35px;
+	color: #A9A9A9;
+	text-indent: 2em;
+}
+
+.publish_content_bottom{
+	height: 30px;
+	width: 640px;
+	/*     border:1px solid red; */
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.publish_content_bottom_left{
+	float: left;
+	/* 	border: 1px solid green; */
+}
+.publish_content_bottom_left .classify_icon{
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.publish_content_bottom span{
+	font-size: 12px;
+	/* 	color: #51A47B; */
+}
+.gray_color{
+	color: #A9A9A9;
+}
+.publish_content_bottom_right{
+	float: right;
+	/* 	border: 1px solid green; */
+}
+.publish_content_bottom_right span{
+	margin-right: 30px;
+}
+
+/* 页面主体左边读者发布内容块  finish */
+
+/* 更多文章按钮 begin */
+#more_article{
+	width: 150px;
+	height: 30px;
+	background: #D5D6D5;
+	margin:30px auto;
+	text-align: center;
+	padding-top: 10px;
+	color: #A9A9A9;
+}
+#more_article:hover{
+	background: #fff;
+	color: #51a47a;
+	cursor: pointer;
+}
+/* 更多文章按钮 finish */
+
+/* 推荐作者块 begin */
+#introduce_writer{
+	border-bottom: 1px solid #A9A9A9;
+	text-align: center;
+	color: #A9A9A9;
+	height: 30px;
+}
+.writer{
+	width: 690px;
+	height: 220px;
+	background:#fff;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.writer .writer_info{
+	height: 220px;
+	width: 170px;
+	float: left;
+}
+.writer .writer_info img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#writer_id{
+	text-align: center;
+	font-size: 20px;
+	color: #A9A9A9;
+	margin-top: 10px;
+}
+.writer .writer_info span{
+	font-size: 14px;
+	text-align: center;
+	margin-left: 20px;
+	color: #A9A9A9;
+}
+#attention{
+	width: 80px;
+	height: 25px;
+	border:1px solid #51a47a;
+	text-align: center;
+	margin:10px auto;
+	padding-top: 5px;
+	cursor: pointer;
+}
+#attention:hover{
+	background: #51a47a;
+	color: #fff;
+}
+/* 推荐作者块 finish */
+
+/* content_left finish 页面主体左边内容区*/
+
+/* content_right begin 页面主体右边内容区*/
+/*右边的用户信息栏*/
+#user_info_login{
+	display: none;
+}
+.content_right{
+	width: 260px;
+	/* 	height: 1500px; */
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+/* 右边顶部个人信息 begin */
+.right_top_personalInfo{
+	width: 260px;
+	height: 230px;
+	background: #fff;
+}
+.right_top_personalInfo img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+/* 参加，关注，粉丝  begin*/
+.attend_attention_fans{
+	width: 260px;
+	height: 50px;
+	background: #fff;
+	padding-bottom: 5px;
+	border-top:2px solid #ccc;
+	margin-top: 5px;
+}
+.attend_attention_fans span{
+	display: block;
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #000;
+	font-size: 11px;
+}
+.attend_attention_fans h2{
+	font-size: 18px;
+}
+.attend_attention_fans a:hover{
+	color: #51a47a;
+}
+/* 参加，关注，粉丝  finish*/
+
+/* 右边顶部个人信息 finish */
+
+/* signIn_time_mission  begin--最右边签到，时间，任务块 */
+.signIn_time_mission{
+	width: 260px;
+	height: 40px;
+	background: #fff;
+	margin-top: 20px;
+
+}
+.signIn_time_mission li{
+	line-height: 27px;
+	width: 78px;
+	margin-top: 5px;
+	text-align: center;
+	margin-left: 5px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.signIn_time_mission li:hover{
+	border: 1px solid #51a47a;
+}
+
+#button_sign{
+	position: relative;
+}
+#calendar_wrap{
+	width: 300px;display: none;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+	left: -280px;
+	top:60px;
+}
+
+#calendar_wrap table{
+	margin-left: 25px;
+	width: 260px;
+	box-shadow: -1px 1px 2px 1px #ccc;
+	text-align: center;
+	background: #fff;
+}
+#calendar_wrap thead{
+	background: #F8F8F8;
+}
+#calendar_wrap table>tbody>tr>td{
+	color: #666666;
+	/*border:1px solid gold;*/
+}
+#calendar_wrap table>thead>tr>th{
+	font-weight: normal;
+}
+
+#calendar_wrap .td_current{
+	background: skyblue;
+	color: #fff;
+	cursor: pointer;
+}
+#calendar_wrap .td_previous{
+
+}
+#calendar_wrap .td_after{
+	/*background: #F8F8F8;*/
+	background: #EBEBEB;
+}
+/* signIn_time_mission  finish--最右边签到，时间，任务块 */
+
+/* 图标 begin */
+.logo{
+	width: 260px;
+	height: 270px;
+	border:1px solid #ccc;
+	margin-top: 20px;
+}
+/* 图标 finish */
+
+/*   今日作品榜,今日成就榜，话题栏 begin */
+.list_box{
+	height: 350px;
+	width: 260px;
+	background: #F2F3F2;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+.list_box_title h2{
+	font-size: 16px;
+	color: #51A47B;
+	font-weight: normal;
+}
+.list_box_title{
+	width: 250px;
+	height: 35px;
+	text-align: center;
+	border-bottom: 2px solid #DBDCDB;
+}
+.list_box_list {
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 220px;
+	height: 270px;
+}
+
+.list_box_list li{
+	line-height: 27px;
+	width: 210px;
+	list-style: decimal;
+	color: #A9A9A9;
+	float: none;
+	padding-right: 10px;
+}
+
+.list_box_list span{
+	float: right;
+	color: #A9A9A9;
+}
+.list_box a{
+	color: #A9A9A9;
+}
+.list_box a:hover{
+	color: #51A47B;
+}
+.list_box>p{
+	border-top: 2px solid #DBDCDB;
+	text-align: center;
+	color: #A9A9A9;
+	display: block;
+	height: 30px;
+	padding-top: 5px;
+}
+
+/* 今日成就榜列表 begin */
+.achievement_list{
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 220px;
+	height: 270px;
+}
+
+/* .achievement_list li{
+    line-height: 50px;
+    height: 50px;
+	width: 210px;
+	list-style: decimal;
+    color: #A9A9A9;
+    float: left;
+    padding-right: 10px;
+    border: 1px solid red;
+    vertical-align: top;
+    text-align: center;
+} */
+.achievement_list li{
+	list-style: decimal;
+	border: 1px solid #F2F3F2;
+	padding-left: 10px;
+	color: #A9A9A9;
+}
+.achievement_list li a{
+	display: block;
+	width: 228px;
+	height: 50px;
+	border: 1px solid #F2F3F2;
+	margin-left: -42px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.achievement_list li a:hover{
+	background: #fff;
+	/*border: 1px solid #51a47a;*/
+	cursor: pointer;
+}
+/*.achievement_list li:hover{
+	background: #fff;
+	border: 1px solid #51a47a;
+	cursor: pointer;
+	border-radius: 10%;
+}*/
+.achievement_list li:hover div p{
+	color: #51a47a;
+}
+.achievement_list div{
+	height: 50px;
+	width: 210px;
+	color: #A9A9A9;
+	float: left;
+	padding-right: 10px;
+}
+.achievement_list div p{
+	margin-top: 5px;
+	color: #A9A9A9;
+}
+.achievement_list div span{
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.achievement_list img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+/* 今日成就榜列表 finish */
+/*   今日作品榜,今日成就榜，话题栏 finish */
+
+/* content_right finish 页面主体右边内容区*/
+
+/* wrap finish 主体包裹层*/

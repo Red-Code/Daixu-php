@@ -1,0 +1,938 @@
+[ 2016-08-11T02:28:45+08:00 ] 182.254.154.72 http://115.159.79.85/check_proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载控制器:Check_proxy.php
+
+[ 2016-08-11T03:40:09+08:00 ] 23.251.51.125 http://www.luisaranguren.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-08-11T03:40:12+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-08-11T04:53:03+08:00 ] 23.251.51.125 http://www.sbjudge2.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-08-11T04:53:03+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-08-11T05:29:47+08:00 ] 185.25.148.240 http://testp1.piwo.pila.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-08-11T06:09:49+08:00 ] 172.82.166.210 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-08-11T08:25:35+08:00 ] 187.160.21.155 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-08-11T09:02:27+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-08-11T10:33:05+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-08-11T10:37:25+08:00 ] 168.1.128.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-08-11T11:25:37+08:00 ] 120.76.155.49 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载控制器:Manager
+
+[ 2016-08-11T13:22:33+08:00 ] 182.254.154.72 http://115.159.79.85/check_proxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Check_proxy.php
+
+[ 2016-08-11T14:06:14+08:00 ] 101.226.64.174 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-11T14:09:14+08:00 ] 101.226.33.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-08-11T15:20:46+08:00 ] 185.49.14.190 http://testp3.pospr.waw.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-08-11T17:25:46+08:00 ] 218.75.70.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-08-11T17:26:32+08:00 ] 23.251.51.125 http://www.proxy-listen.de/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-08-11T17:26:32+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-08-11T17:36:58+08:00 ] 137.226.113.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-08-11T19:59:28+08:00 ] 91.228.89.46 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-11T20:09:11+08:00 ] 106.75.29.120 106.75.29.120:44444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-08-11T20:09:14+08:00 ] 106.75.29.120 106.75.29.120:55555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-08-11T20:33:10+08:00 ] 112.74.16.234 /phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2016-08-11T20:45:18+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-08-11T21:04:08+08:00 ] 101.201.145.114 /phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2016-08-11T21:52:54+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-11T22:01:29+08:00 ] 66.240.236.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 808  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 804  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 811  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 810  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-08-11T22:01:40+08:00 ] 66.240.236.119 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-08-11T22:01:47+08:00 ] 66.240.236.119 /sitemap.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载控制器:Sitemap.xml
+

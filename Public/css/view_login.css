@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.register-box{
+    margin: 100px 730px;
+    width: 500px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 25px 3px #51a47a;
+    background: #fff;
+}
+
+.my_submit{
+    width:280px;
+    height: 40px;
+    color: #fff;
+    background: #51a47a;
+    border: none;
+    margin:30px 0 0 80px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.reduce_margin{
+    margin-bottom: 30px;
+}
+.login_header a{
+    color: #51a47a;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.login_header{
+    margin:0 0 15px 150px;
+    font-size: 28px;
+}
+.forget_secret{
+    margin:30px 0 0 80px;
+}
+.forget_secret a{
+    color: #51a47a;
+}
+.all_icon{
+    height: 40px;
+    margin:30px 0 0 80px;
+    padding-left: 20px;
+}
+.all_icon span{
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.all_icon span .qq_icon{
+    position: absolute;
+    top:-352px;
+    left:-233px;
+}
+.all_icon span .weixin_icon{
+    position: absolute;
+    top:-352px;
+    left:-283px;
+}
+.all_icon span .weibo_icon{
+    position: absolute;
+    top:-352px;
+    left:-109px;
+}

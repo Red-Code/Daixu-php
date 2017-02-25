@@ -1,0 +1,88 @@
+[ 2016-06-24T15:16:39+08:00 ] 121.42.165.45 /Work/no_redis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.107405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107498s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0097s ]
+SQL: SELECT `adv_id`,`adv_img`,`adv_url` FROM `adv`  [ RunTime:0.0813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.807622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.807720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.058518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.058597s ]
+
+[ 2016-06-24T15:16:39+08:00 ] 121.42.165.45 /Work/no_redis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.104448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104524s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0004s ]
+SQL: SELECT `adv_id`,`adv_img`,`adv_url` FROM `adv`  [ RunTime:0.0345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.109245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.809651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.809755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.112571s ]
+
+[ 2016-06-24T15:16:39+08:00 ] 121.42.165.45 /Work/no_redis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.179586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.118537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118628s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0055s ]
+SQL: SELECT `adv_id`,`adv_img`,`adv_url` FROM `adv`  [ RunTime:0.0623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.728044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.728133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-06-24T15:16:39+08:00 ] 121.42.165.45 /Work/no_redis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.215381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.215482s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0150s ]
+SQL: SELECT `adv_id`,`adv_img`,`adv_url` FROM `adv`  [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.703882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.703976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.115493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.115594s ]
+

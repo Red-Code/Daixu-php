@@ -1,0 +1,1879 @@
+[ 2016-07-09T00:04:20+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012817s ]
+
+[ 2016-07-09T00:05:25+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017899s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0157s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T00:15:10+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025837s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T00:18:57+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029783s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0127s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T00:32:28+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026453s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T00:34:22+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015903s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T00:45:43+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020442s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0231s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T00:58:53+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023928s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0192s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:12:06+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021867s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:14:44+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024818s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T01:28:10+08:00 ] 23.251.51.125 http://fr.cyberpods.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022910s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0184s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:28:11+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015464s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:34:54+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023802s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T01:39:18+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025936s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0126s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:53:14+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0130s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T01:55:24+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027771s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T02:07:12+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019054s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0202s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T02:21:50+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018914s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0156s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T02:35:44+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027419s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0203s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T02:38:58+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026196s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T02:50:05+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022007s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T02:54:53+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013970s ]
+
+[ 2016-07-09T02:58:46+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T03:04:23+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018005s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0198s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T03:18:46+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020928s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0223s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T03:19:41+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017838s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T03:22:37+08:00 ] 89.248.168.29 /xmlrpc.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023790s ]
+ERR: 无法加载控制器:Xmlrpc.php
+
+[ 2016-07-09T03:25:52+08:00 ] 60.191.52.254 http://wap.ip138.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023494s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0153s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T03:33:00+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018924s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0190s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T03:47:01+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019781s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0134s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T04:00:52+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018902s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0201s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T04:00:53+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012022s ]
+
+[ 2016-07-09T04:15:35+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024925s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0244s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T04:22:45+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039681s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T04:30:14+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018939s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0212s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T04:43:13+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019811s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T04:44:13+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032467s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0259s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T04:58:37+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019483s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T05:04:00+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027379s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T05:13:05+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016700s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0231s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T05:27:12+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037756s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0168s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T05:41:21+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019002s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0176s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T05:44:48+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026013s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T05:55:15+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023892s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0208s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T06:09:24+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015055s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T06:23:32+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021977s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0149s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T06:37:25+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020572s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T06:40:01+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036740s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T06:50:50+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030737s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0126s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:04:14+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019775s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:18:08+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022203s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0288s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:24:28+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017807s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T07:26:22+08:00 ] 23.251.51.125 http://www.sbjudge1.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022006s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T07:26:23+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016875s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0130s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:26:42+08:00 ] 23.251.51.125 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028788s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T07:26:43+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024972s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:31:39+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018881s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0151s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:42:18+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018872s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T07:44:44+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010968s ]
+
+[ 2016-07-09T07:45:33+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014915s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0202s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T07:58:23+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013022s ]
+
+[ 2016-07-09T07:59:00+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017140s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0228s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:12:15+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031420s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0181s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:13:56+08:00 ] 42.159.134.114 http://maxcd03-dev01.chinacloudapp.cn/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018669s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0065s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:21:37+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021577s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T08:25:33+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015945s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:36:39+08:00 ] 23.251.51.125 http://www.sbjudge1.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033055s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T08:36:40+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018944s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0139s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:39:07+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019922s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0219s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T08:52:20+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016989s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0196s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:01:55+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024793s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T09:05:43+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025053s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0242s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:18:53+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018909s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:32:18+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024894s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:37:11+08:00 ] 114.215.239.201 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020848s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0175s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:39:21+08:00 ] 185.49.14.190 http://testp1.piwo.pila.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021843s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-07-09T09:43:29+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021493s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T09:45:17+08:00 ] 23.251.51.125 http://www.sbjudge1.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018926s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T09:45:18+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025916s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:45:39+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018124s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T09:58:58+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024922s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:05:15+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018584s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T10:12:12+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017730s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0115s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:25:36+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022879s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0131s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:26:24+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025883s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T10:38:55+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021927s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0277s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:52:13+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032489s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:59:18+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025771s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0330s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T10:59:19+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017912s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T11:05:17+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016586s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T11:06:58+08:00 ] 172.82.166.210 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013806s ]
+
+[ 2016-07-09T11:19:02+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018921s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0174s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T11:25:08+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016981s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T11:32:39+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017899s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T11:45:44+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018970s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0239s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T11:47:16+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022772s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T11:56:35+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-07-09T11:59:41+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014652s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T12:13:37+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015038s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0229s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T12:26:59+08:00 ] 23.251.51.125 http://www.sbjudge1.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030668s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T12:27:01+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019073s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0156s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T12:27:06+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016439s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T12:34:57+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014666s ]
+
+[ 2016-07-09T12:40:37+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028800s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0138s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T12:46:44+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016830s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T12:53:50+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018162s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0190s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T13:07:17+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020896s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T13:07:37+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018963s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0250s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T13:21:11+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021915s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T13:22:33+08:00 ] 141.212.122.193 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.013096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018960s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0138s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T13:34:27+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022153s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0178s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T13:47:43+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032879s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:00:51+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018925s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:09:06+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024292s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T14:13:44+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026005s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0099s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:26:59+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018900s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0156s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:30:13+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023816s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T14:40:02+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022620s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0200s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:44:12+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018012s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0156s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:44:13+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020647s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T14:51:53+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023798s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T14:53:28+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018912s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0148s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T15:06:42+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018335s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T15:10:46+08:00 ] 23.251.51.125 http://www.proxy-listen.de/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025634s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T15:10:46+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019916s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T15:12:01+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022837s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T15:20:11+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027910s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T15:32:22+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016836s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T15:33:35+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018895s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T15:47:06+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024898s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0202s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:00:09+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017680s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0130s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:12:50+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028686s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T16:13:47+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019911s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0284s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:27:06+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022004s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0262s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:39:38+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012685s ]
+
+[ 2016-07-09T16:40:26+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024016s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0220s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:48:21+08:00 ] 93.174.93.218 http://httpheader.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023120s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0119s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T16:54:01+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022879s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0126s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:06:23+08:00 ] 23.251.51.125 http://domkrim.com/av.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018959s ]
+ERR: 无法加载控制器:Av.php
+
+[ 2016-07-09T17:06:24+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023614s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0195s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:07:43+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025880s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0191s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:13:33+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017127s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T17:21:11+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014940s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0079s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:25:11+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007048s ]
+
+[ 2016-07-09T17:34:44+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016942s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0159s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:35:47+08:00 ] 103.240.16.119 http://www.example.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0146s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:47:49+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024887s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0251s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T17:54:35+08:00 ] 49.114.70.215 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012962s ]
+
+[ 2016-07-09T17:54:38+08:00 ] 49.114.70.215 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012156s ]
+
+[ 2016-07-09T18:00:49+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015898s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0225s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T18:13:57+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020883s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0143s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T18:20:49+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019314s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T18:20:52+08:00 ] 23.251.51.125 http://www.proxy-listen.de/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018816s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T18:20:53+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033409s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T18:27:07+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T18:40:29+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031281s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T18:53:44+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018919s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0252s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T19:06:58+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017899s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0044s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T19:19:45+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022903s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0127s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T19:29:26+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029687s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T19:33:01+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031834s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0124s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T19:46:33+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018929s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0278s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T19:59:52+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020677s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T20:12:40+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017541s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0186s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T20:24:16+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022970s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T20:26:28+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021990s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0179s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T20:39:38+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023863s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0140s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T20:45:20+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016844s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T20:52:24+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023888s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0259s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T21:18:45+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016856s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0127s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T21:22:58+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030778s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T21:25:46+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-07-09T21:31:47+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017936s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0110s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T21:43:33+08:00 ] 101.200.235.114 /phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025687s ]
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2016-07-09T21:45:08+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018876s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0122s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T21:58:13+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024897s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0103s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T22:15:39+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016484s ]
+
+[ 2016-07-09T22:24:27+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019727s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0202s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T22:30:16+08:00 ] 172.82.166.210 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008113s ]
+
+[ 2016-07-09T22:37:34+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021584s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T22:50:16+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036223s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0093s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:03:41+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023304s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0209s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:16:42+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017208s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:26:24+08:00 ] 23.251.51.125 http://www.proxyjudge.info/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025982s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-09T23:26:28+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019869s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0228s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:30:25+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021889s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0114s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:33:25+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021713s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-09T23:44:16+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020901s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0145s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-09T23:57:59+08:00 ] 114.36.214.22 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013905s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0165s ]
+ERR: Think\Controller:article_today_select方法不存在！
+

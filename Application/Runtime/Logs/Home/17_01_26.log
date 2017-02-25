@@ -1,0 +1,1660 @@
+[ 2017-01-26T00:07:07+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020028s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0166s ]
+ERR: Redis server went away
+
+[ 2017-01-26T00:14:00+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037626s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0059s ]
+ERR: Redis server went away
+
+[ 2017-01-26T00:31:42+08:00 ] 80.82.64.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015295s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0152s ]
+ERR: Redis server went away
+
+[ 2017-01-26T00:34:10+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037484s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0214s ]
+ERR: Redis server went away
+
+[ 2017-01-26T00:40:38+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040715s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0138s ]
+ERR: Redis server went away
+
+[ 2017-01-26T01:15:15+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034121s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0251s ]
+ERR: Redis server went away
+
+[ 2017-01-26T01:26:55+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020060s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0095s ]
+ERR: Redis server went away
+
+[ 2017-01-26T01:43:30+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024998s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0186s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:00:29+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037314s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0142s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:18:21+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027648s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0281s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:30:55+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.021157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032222s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0218s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:31:41+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031283s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0181s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:32:28+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038393s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0073s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:33:14+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016012s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0150s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:34:01+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035738s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0170s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:34:47+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028863s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0140s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:35:34+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018101s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0219s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:36:20+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026135s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0203s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:37:07+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036854s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0248s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:37:53+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039670s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0296s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:38:10+08:00 ] 220.169.242.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020894s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0073s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:38:40+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028699s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0074s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:39:26+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030762s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0263s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:40:13+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030971s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0200s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:40:59+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0331s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:41:45+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034727s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0211s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:42:32+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037818s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0135s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:43:18+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043644s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0192s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:44:05+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033714s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0255s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:44:51+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021876s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0192s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:45:38+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032863s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0138s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:46:24+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039685s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0446s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:47:03+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.023113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019851s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0289s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:47:11+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.042657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042891s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0294s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:47:57+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030258s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0147s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:48:44+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022600s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0088s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:49:30+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030482s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0082s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:50:17+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021997s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0156s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:51:04+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034081s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0328s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:51:50+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016036s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0323s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:52:37+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037770s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0101s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:53:23+08:00 ] 75.74.234.151 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033875s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0250s ]
+ERR: Redis server went away
+
+[ 2017-01-26T02:57:00+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025540s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0097s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:03:34+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017548s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0138s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:14:33+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031003s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0192s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:29:47+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033256s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0271s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:31:43+08:00 ] 23.251.63.45 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034320s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0134s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:41:56+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019746s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0095s ]
+ERR: Redis server went away
+
+[ 2017-01-26T03:48:39+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033911s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0135s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:00:38+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015909s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0249s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:05:28+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037106s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0173s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:16:51+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019986s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0129s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:17:37+08:00 ] 47.61.105.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038868s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0154s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:26:02+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025299s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0340s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:36:38+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030758s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0182s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:41:51+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036803s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0079s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:51:52+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031770s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0220s ]
+ERR: Redis server went away
+
+[ 2017-01-26T04:59:59+08:00 ] 79.129.15.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029844s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0112s ]
+ERR: Redis server went away
+
+[ 2017-01-26T05:01:39+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019016s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0073s ]
+ERR: Redis server went away
+
+[ 2017-01-26T05:28:58+08:00 ] 111.251.93.170 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031429s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0058s ]
+ERR: Redis server went away
+
+[ 2017-01-26T05:47:29+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030993s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0136s ]
+ERR: Redis server went away
+
+[ 2017-01-26T05:55:28+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028012s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0271s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:00:25+08:00 ] 23.251.63.45 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025245s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0075s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:00:31+08:00 ] 120.32.69.92 http://www.123cha.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020041s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0012s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:15:35+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030412s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0271s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:16:59+08:00 ] 114.35.249.149 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021185s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0137s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:44:21+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036796s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0132s ]
+ERR: Redis server went away
+
+[ 2017-01-26T06:51:03+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.023184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037929s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0275s ]
+ERR: Redis server went away
+
+[ 2017-01-26T07:30:34+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025953s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0255s ]
+ERR: Redis server went away
+
+[ 2017-01-26T07:39:15+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034755s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0110s ]
+ERR: Redis server went away
+
+[ 2017-01-26T07:48:17+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031465s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0075s ]
+ERR: Redis server went away
+
+[ 2017-01-26T07:50:14+08:00 ] 42.156.251.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029395s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0169s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:06:48+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029313s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0194s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:12:58+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037628s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0251s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:17:05+08:00 ] 23.251.63.45 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035923s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0140s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:17:08+08:00 ] 111.85.179.53 http://www.123cha.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019967s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0256s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:24:43+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030779s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0114s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:31:51+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033977s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0139s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:40:28+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0228s ]
+ERR: Redis server went away
+
+[ 2017-01-26T08:59:11+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050012s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0139s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:06:14+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027980s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0146s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:25:40+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019249s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0114s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:33:43+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.045468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045706s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0077s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:42:33+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000752s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038475s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0368s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:53:10+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031869s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0168s ]
+ERR: Redis server went away
+
+[ 2017-01-26T09:53:17+08:00 ] 121.17.154.163 search.yahoo.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025966s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0153s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:00:26+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032742s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0347s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:10:33+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027236s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0244s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:28:34+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022285s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0279s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:33:03+08:00 ] 121.42.150.103 search.yahoo.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027440s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0346s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:37:56+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0261s ]
+ERR: Redis server went away
+
+[ 2017-01-26T10:46:02+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022831s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0146s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:04:07+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021117s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0378s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:15:05+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026986s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0307s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:24:49+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021972s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0025s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:33:10+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016981s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0163s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:42:34+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031069s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0143s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:50:18+08:00 ] 140.205.201.41 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039898s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0123s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:50:23+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036772s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0141s ]
+ERR: Redis server went away
+
+[ 2017-01-26T11:57:50+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035014s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0368s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:11:39+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018955s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0140s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:20:19+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021040s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0280s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:24:24+08:00 ] 140.205.201.41 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031586s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0085s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:25:05+08:00 ] 140.205.201.41 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026323s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0388s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:27:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019619s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0195s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:38:29+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036845s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0150s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:47:20+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029110s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0139s ]
+ERR: Redis server went away
+
+[ 2017-01-26T12:55:29+08:00 ] 140.205.201.41 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030646s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0199s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:03:25+08:00 ] 23.251.63.45 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032844s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0221s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:03:29+08:00 ] 112.66.69.199 http://www.123cha.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0220s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:16:03+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0135s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:25:40+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021225s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0332s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:36:14+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029712s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0136s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:46:44+08:00 ] 73.45.85.63 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035868s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0008s ]
+ERR: Redis server went away
+
+[ 2017-01-26T13:54:40+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021878s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0114s ]
+ERR: Redis server went away
+
+[ 2017-01-26T14:11:33+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039542s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0341s ]
+ERR: Redis server went away
+
+[ 2017-01-26T14:33:18+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037636s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0179s ]
+ERR: Redis server went away
+
+[ 2017-01-26T14:42:59+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033926s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0210s ]
+ERR: Redis server went away
+
+[ 2017-01-26T14:52:10+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023990s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0227s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:01:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014029s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0122s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:12:34+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024026s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0130s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:23:00+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019020s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0132s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:34:25+08:00 ] 23.251.63.45 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0220s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:34:33+08:00 ] 117.13.169.200 http://www.123cha.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022269s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0129s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:44:08+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021047s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0271s ]
+ERR: Redis server went away
+
+[ 2017-01-26T15:52:30+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036447s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0244s ]
+ERR: Redis server went away
+
+[ 2017-01-26T16:23:34+08:00 ] 107.4.68.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027454s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0008s ]
+ERR: Redis server went away
+
+[ 2017-01-26T16:33:56+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032466s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0183s ]
+ERR: Redis server went away
+
+[ 2017-01-26T16:39:24+08:00 ] 110.159.15.137 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034923s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0143s ]
+ERR: Redis server went away
+
+[ 2017-01-26T16:42:17+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020003s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0211s ]
+ERR: Redis server went away
+
+[ 2017-01-26T16:51:53+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040799s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0210s ]
+ERR: Redis server went away
+
+[ 2017-01-26T17:06:22+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016004s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0166s ]
+ERR: Redis server went away
+
+[ 2017-01-26T17:13:03+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033440s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0366s ]
+ERR: Redis server went away
+
+[ 2017-01-26T17:34:14+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032822s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0107s ]
+ERR: Redis server went away
+
+[ 2017-01-26T17:59:19+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037903s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0073s ]
+ERR: Redis server went away
+
+[ 2017-01-26T18:10:40+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018861s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0189s ]
+ERR: Redis server went away
+
+[ 2017-01-26T18:33:21+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020102s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0213s ]
+ERR: Redis server went away
+
+[ 2017-01-26T18:41:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026957s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0141s ]
+ERR: Redis server went away
+
+[ 2017-01-26T18:53:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030821s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0149s ]
+ERR: Redis server went away
+
+[ 2017-01-26T19:04:48+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040916s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0255s ]
+ERR: Redis server went away
+
+[ 2017-01-26T19:18:06+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016042s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0150s ]
+ERR: Redis server went away
+
+[ 2017-01-26T19:27:17+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037552s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0155s ]
+ERR: Redis server went away
+
+[ 2017-01-26T19:40:28+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018955s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0336s ]
+ERR: Redis server went away
+
+[ 2017-01-26T20:02:49+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028741s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+ERR: Redis server went away
+
+[ 2017-01-26T20:11:49+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021650s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0138s ]
+ERR: Redis server went away
+
+[ 2017-01-26T20:23:05+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020750s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0101s ]
+ERR: Redis server went away
+
+[ 2017-01-26T20:32:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032767s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0077s ]
+ERR: Redis server went away
+
+[ 2017-01-26T20:44:36+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035949s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0079s ]
+ERR: Redis server went away
+
+[ 2017-01-26T21:07:26+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.041455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041648s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0267s ]
+ERR: Redis server went away
+
+[ 2017-01-26T21:18:51+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024939s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0276s ]
+ERR: Redis server went away
+
+[ 2017-01-26T21:28:37+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036991s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0211s ]
+ERR: Redis server went away
+
+[ 2017-01-26T21:41:42+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016945s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0110s ]
+ERR: Redis server went away
+
+[ 2017-01-26T21:53:44+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034854s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0157s ]
+ERR: Redis server went away
+
+[ 2017-01-26T22:01:49+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031881s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0161s ]
+ERR: Redis server went away
+
+[ 2017-01-26T22:12:15+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036562s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0143s ]
+ERR: Redis server went away
+
+[ 2017-01-26T22:24:40+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029943s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0260s ]
+ERR: Redis server went away
+
+[ 2017-01-26T22:38:54+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028299s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0287s ]
+ERR: Redis server went away
+
+[ 2017-01-26T22:50:21+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018924s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0243s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:00:45+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029750s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0191s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:11:29+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031904s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0149s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:19:26+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032727s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0113s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:20:48+08:00 ] 49.114.64.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019982s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0212s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:20:50+08:00 ] 49.114.64.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020924s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0181s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:30:34+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024055s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0207s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:42:19+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024994s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0173s ]
+ERR: Redis server went away
+
+[ 2017-01-26T23:50:04+08:00 ] 1.162.174.241 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033359s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0149s ]
+ERR: Redis server went away
+

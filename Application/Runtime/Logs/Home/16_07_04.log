@@ -1,0 +1,1055 @@
+[ 2016-07-04T00:03:48+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025653s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T00:29:10+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034230s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T00:41:58+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022812s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T00:54:42+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025098s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T01:07:37+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020811s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T01:44:47+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020121s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T01:48:12+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019411s ]
+
+[ 2016-07-04T02:11:39+08:00 ] 23.251.51.125 http://www.proxyjudge.info/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024811s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T02:11:41+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018843s ]
+
+[ 2016-07-04T02:18:29+08:00 ] 94.102.48.193 /wp/wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016864s ]
+ERR: 无法加载控制器:Wp
+
+[ 2016-07-04T02:34:18+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015941s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T02:47:29+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018805s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T03:01:32+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015979s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T03:15:05+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018806s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T03:20:50+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.306560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022821s ]
+
+[ 2016-07-04T03:20:51+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019078s ]
+
+[ 2016-07-04T03:23:21+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012958s ]
+
+[ 2016-07-04T03:53:29+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027798s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T04:09:03+08:00 ] 23.251.51.125 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020909s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T04:09:04+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018915s ]
+
+[ 2016-07-04T04:18:58+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019850s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T04:31:50+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018793s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T04:37:07+08:00 ] 123.56.233.103 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.279460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035300s ]
+
+[ 2016-07-04T05:09:28+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021618s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T05:47:01+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022790s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T06:12:27+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023812s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T06:13:29+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018911s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031319s ]
+
+[ 2016-07-04T06:13:31+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018854s ]
+
+[ 2016-07-04T06:25:51+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021870s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T06:36:28+08:00 ] 23.251.63.45 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024873s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T06:36:30+08:00 ] 23.251.63.45 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019786s ]
+
+[ 2016-07-04T06:38:23+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012989s ]
+
+[ 2016-07-04T06:38:30+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016219s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T06:56:35+08:00 ] 91.196.50.33 http://testp3.pospr.waw.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033744s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-07-04T07:01:48+08:00 ] 23.251.51.125 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021669s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T07:01:49+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024853s ]
+
+[ 2016-07-04T07:16:40+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021922s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T07:24:09+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018959s ]
+
+[ 2016-07-04T07:30:07+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035364s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T07:45:31+08:00 ] 172.82.166.210 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-07-04T08:20:35+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030351s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T08:33:24+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024846s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T08:58:54+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018829s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T09:24:34+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024621s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T09:37:24+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021860s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T10:07:30+08:00 ] 23.251.51.125 http://fr.cyberpods.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019899s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022102s ]
+
+[ 2016-07-04T10:07:32+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.307433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032397s ]
+
+[ 2016-07-04T10:15:50+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021592s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T10:41:41+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018804s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T10:54:52+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016348s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T11:27:47+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014951s ]
+
+[ 2016-07-04T11:29:40+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009013s ]
+
+[ 2016-07-04T11:40:27+08:00 ] 69.64.57.208 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.295760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.295903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021827s ]
+
+[ 2016-07-04T12:23:47+08:00 ] 222.210.49.216 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013154s ]
+
+[ 2016-07-04T13:25:54+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021000s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T13:39:04+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025304s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T13:55:03+08:00 ] 222.210.49.216 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017969s ]
+
+[ 2016-07-04T14:05:22+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025347s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T14:18:34+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022899s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T14:32:05+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018836s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T14:38:15+08:00 ] 23.251.51.125 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025091s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T14:38:16+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024037s ]
+
+[ 2016-07-04T14:45:36+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025325s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T15:11:36+08:00 ] 101.200.86.96 http://www.izhongsai.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.282246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024897s ]
+
+[ 2016-07-04T15:13:52+08:00 ] 111.248.127.80 163mx01.mxmail.netease.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020815s ]
+
+[ 2016-07-04T15:32:54+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013485s ]
+
+[ 2016-07-04T15:44:05+08:00 ] 69.64.57.208 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.024480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.328052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.328158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026239s ]
+
+[ 2016-07-04T15:52:35+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025015s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T16:17:30+08:00 ] 93.174.93.218 http://httpheader.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023917s ]
+
+[ 2016-07-04T16:21:21+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-07-04T16:37:04+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021703s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T16:39:44+08:00 ] 23.251.51.125 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019770s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T16:39:45+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018959s ]
+
+[ 2016-07-04T17:22:17+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026280s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T17:29:42+08:00 ] 23.251.51.125 http://www.proxyjudge.info/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024009s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-04T17:29:43+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022826s ]
+
+[ 2016-07-04T17:54:44+08:00 ] 185.49.14.190 http://testp4.pospr.waw.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023005s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-07-04T18:08:03+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025769s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T18:51:40+08:00 ] 93.174.93.218 http://httpheader.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021990s ]
+
+[ 2016-07-04T18:52:39+08:00 ] 172.82.166.210 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008492s ]
+
+[ 2016-07-04T18:54:14+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017935s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T19:33:30+08:00 ] 123.56.65.139 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025788s ]
+
+[ 2016-07-04T19:38:21+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012883s ]
+
+[ 2016-07-04T19:40:21+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024806s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T20:26:49+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017827s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T21:13:09+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012972s ]
+
+[ 2016-07-04T21:50:23+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013502s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T22:05:32+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023656s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T22:20:32+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031710s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T22:35:45+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018987s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T22:39:54+08:00 ] 103.240.16.119 http://www.example.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029419s ]
+
+[ 2016-07-04T22:50:03+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021806s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T23:05:41+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017583s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T23:20:33+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019555s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T23:36:17+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022201s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-04T23:40:54+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013970s ]
+
+[ 2016-07-04T23:51:25+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024798s ]
+ERR: 无法加载控制器:80
+

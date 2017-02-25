@@ -1,0 +1,640 @@
+.Body{
+    width: 1000px;
+    height:1800px;
+    background-color: #E4E4E6;
+    margin-left: auto;
+    margin-right:auto ;
+    text-align: center;
+    margin-top: 0;
+
+
+}
+.Body_left_big{
+    width:675px;
+    height:750px;
+    background-color: #FFFFFF;
+    float: left;
+    margin:20px 0 10px 20px;
+}
+.personal_data{
+    width:250px;
+    height:190px;
+    background-color: #F2F2F2;
+    float:right;
+    margin:20px 20px 10px 0;
+
+}
+.Ad{
+    width:675px;
+    height:80px;
+    background-color: aqua;
+    float: left;
+    margin:80px 0 10px 20px;
+}
+
+.rank_Box{
+    width:250px;
+    height:190px;
+    background-color: #F2F2F2;
+    float:right;
+    margin: 10px 20px 10px 0;
+}
+.rule_box{
+    width:250px;
+    height: 190px;
+    background-color: #F2F2F2;
+    float: right;
+    margin:10px 20px 10px 0;
+
+}
+.Body_left{
+    width: 700px;
+    height: auto;
+    background-color: #E4E4E6;
+    float: left;
+}
+.Body_right{
+    width:260px;
+    height: auto;
+    background-color:#E4E4E6;
+    float: right;
+}
+.BGpic{
+    width:250px;
+    height: 75px;
+    background-color: #222222;
+}
+.rank_title_box{
+    height: 35px;
+}
+.rank_title{
+    font-size: 14px;
+    color:#90C3A9;
+    margin:14px 0 0 0;
+}
+.hot_and_achieve_box{
+    margin:0 10px 0 10px;
+    float: right;
+    width: 230px;
+}
+.hot_date{
+    font-size: 10px;
+    color: #90C3A9;
+    margin:0px;
+    float: right;
+}
+.achieve_date{
+    font-size: 10px;
+    color: #90C3A9;
+    margin: 0px;
+    float: right;
+}
+.box_shuxian{
+    border-style:solid;
+    margin: 0 5px 0 5px;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    border-right-width: 1px;
+    border-left-width: 0;
+    border-color:#DEDEDE;
+    height: 14px;
+    text-align: center;
+    float: right;
+
+}
+.namebox{
+    font-size: 16px;
+    color: #323546;
+    margin: 14px 0 0 0;
+}
+.name_line{
+    border-style:solid;
+    margin: 0 auto;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color:#C5C5C5;
+    width: 230px;
+    text-align: center;
+
+}
+.box_nicheng{
+    margin: 16px 0 5px 0;
+}
+.box_hengxian2{
+    border-style:solid;
+    margin: 0 auto;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color:#DEDEDE;
+    width: 230px;
+    text-align: center;
+}
+.shuoming{
+    font-size: 14px;
+    color: #90C1AA;
+}
+
+.rule_line{
+    border-style:solid;
+    margin: 0 auto;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color:#DEDEDE;
+    width: 230px;
+    text-align: center;
+}
+.rule{
+    font-size: 14px;
+    color: #3F3534;
+}
+
+.joinbox{
+    float: left;
+    margin: 0px 30px;
+}
+.attbox{
+    float:left;
+    margin: 0px 15px;
+}
+.fansbox{
+    float:left;
+    margin: 0px 30px;
+}
+.canyushu{
+    margin: 10px 0px 5px 0px;
+}
+.guanzhushu{
+    margin: 10px 0px 5px 0px;
+}
+.fensishu{
+    margin: 10px 0px 5px 0px;
+}
+.canyu{
+    margin:5px 0px 10px 0px;
+}
+.guanzhu{
+    margin:5px 0px 10px 0px;
+}
+.fensi{
+    margin:5px 0px 10px 0px;
+}
+#chengjiu{
+    font-size: 18px;
+    color: #52A57B;
+    margin: 0;
+    cursor: pointer;
+}
+#redu{
+    font-size: 18px;
+    color: #52A57B;
+    margin: 0;
+    cursor: pointer;
+}
+#charts_left{
+    float: left;
+    margin: 0;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 337.5px;
+    line-height: 40px;
+}
+#charts_right{
+    float: left;
+    margin: 0;
+    background-color: #C5C5C5;
+    height: 40px;
+    width: 337.5px;
+    line-height: 40px;
+}
+.charts{
+    height: 40px;
+}
+.rank_way{
+    height: 42px;
+    width: 675px;
+    background-color: #FFFFFF;
+
+}
+.rank_way p{
+    float: left;
+    font-size:14px;
+    /*color: #69B18C;*/
+    color: #000;
+    margin: 10px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid #fff;
+    border-radius:50px;
+}
+.rank_way p:first-of-type{
+    border:1px solid #53A47B;
+
+    color: #53A47B;
+}
+.rank_way p:hover{
+    color: #51A478;
+    border:1px solid #53A47B;
+    /*border-bottom-left-radius: 50px;*/
+    /*border-bottom-right-radius: 50px ;*/
+    /*border-top-left-radius: 50px;*/
+    /*border-top-right-radius: 50px ;*/
+    border-radius: 50px;
+    cursor: pointer;
+}
+.rank_inf{
+    height: 20px;
+    width: 675px;
+    background-color: #FFFFFF;
+}
+.rank_inf p{
+    font-size: 14px;
+    color: #999999;
+    float: left;
+}
+.paiming{
+    margin:0 100px 0 30px;
+
+}
+.zuozhe{
+    margin: 0 200px 0 55px;
+}
+.rezhishu{
+    margin: 0 20px 0 30px;
+}
+.line_1{
+    border-style:solid;
+    margin: 0 auto;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color:#999999;
+    width: 630px;
+    text-align: center;
+}
+.line_box{
+    height: 5px;
+    background-color: #FFFFFF;
+}
+.headpic{
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    background-color: #999999;
+    border-radius: 50%;
+    float: left;
+    margin: 30px 90px 0 90px;
+    left: 50%;
+
+}
+.hot_num{
+    float: right;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin: 2px 2px 0 0;
+}
+.num{
+    float: left;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin: 2px 0 2px 2px;
+}
+.story_name{
+    float: left;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin: 2px 0;
+}
+.personal_rank_1,.personal_rank_2{
+    height: 20px;
+    width: 240px;
+    margin: 2px 0;
+    font-size: 14px;
+    color: #5B5B5B;
+}
+
+#rank_inf_box_achieve{
+    width: 675px;
+    height: 650px;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+#rank_inf_box_story{
+    width: 675px;
+    height: 750px;
+    margin: 0;
+    background-color: #FFFFFF;
+    position:relative;
+    float: left;
+    top: -25px;
+    display: none;
+
+
+}
+.rank_box_story_1{
+    height: 50px;
+    width: 675px;
+    margin: 0 ;
+    background-color:#FFFFFF;
+
+}
+.story_name_box{
+    margin-left:150px;
+    margin-right: 150px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.story_name_box_10{
+    margin-right: 150px;
+    margin-left:  143px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story_rank_num{
+    margin-right: 0 ;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.all_rank_box_1{
+    height: 78px;
+    width: 675px;
+    margin: 30px 0 0 0 ;
+    background-color:#FFFFFF;
+
+}
+.all_rank_box_2{
+    height: 68px;
+    width: 675px;
+    margin: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+
+}
+.rank_num{
+    float: left;
+    margin: 28px 0 28px 20px;
+}
+.name_and_signature{
+    float: left;
+    margin: 20px 0 0 5px;
+}
+
+.rank_name{
+    font-size: 18px;
+    margin: 2px 0;
+    text-align: left;
+}
+.rank_signature{
+    font-size:  12px;
+    margin:2px 0;
+}
+.rank_hot_num{
+    font-size: 12px;
+    margin: 28px 160px 28px 0;
+    float: right;
+}
+
+.story_rank_hot_num{
+    font-size: 12px;
+    margin-right: 160px ;
+    margin-left:  0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+.rank_headpic_1{
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    background-color: #999999;
+    border-radius: 50%;
+    float: left;
+    margin: 0 0 0 60px;
+    left: 50%;
+}
+
+.rank_headpic{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #999999;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 0 10px 72px;
+    left: 50%;
+}
+.rank_headpic_10{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #999999;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 0 10px 65px;
+    left: 50%;
+}
+
+.rule{
+    float: left;
+    margin: 10px 5px 0 5px;
+    text-align: left;
+}
+.personal_rank_1,.personal_rank_2{
+    margin: 10px 5px 0 5px;
+}
+.rank_story{
+    font-size: 18px;
+}
+
+.rank_box_story_1 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 右边顶部个人信息 begin */
+/*.right_top_personalInfo{*/
+    /*width: 260px;*/
+    /*height: 230px;*/
+    /*background: #fff;*/
+/*}*/
+/*.right_top_personalInfo img{*/
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*border-radius: 50%;*/
+    /*margin-top: 20px;*/
+    /*margin-left: 80px;*/
+/*}*/
+/*!* 参加，关注，粉丝  begin*!*/
+/*.attend_attention_fans{*/
+    /*width: 260px;*/
+    /*height: 50px;*/
+    /*background: #fff;*/
+    /*padding-bottom: 5px;*/
+    /*border-top:2px solid #ccc;*/
+    /*margin-top: 5px;*/
+/*}*/
+/*.attend_attention_fans span{*/
+    /*display: block;*/
+    /*width: 50px;*/
+    /*height: 40px;*/
+    /*float: left;*/
+    /*margin-left: 20px;*/
+    /*padding-top: 10px;*/
+    /*padding-left: 10px;*/
+    /*color: #000;*/
+    /*font-size: 11px;*/
+/*}*/
+/*.attend_attention_fans h2{*/
+    /*font-size: 18px;*/
+/*}*/
+/*.attend_attention_fans a:hover{*/
+    /*color: #51a47a;*/
+/*}*/
+/* 参加，关注，粉丝  finish*/
+
+/* content_right begin 页面主体右边内容区*/
+.content_right{
+    width: 260px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content_right a{
+    text-decoration: none;
+    color: #000;
+}
+.content_right li{
+    list-style: none;
+}
+.right_top_personalInfo{
+    width: 100%;
+    height: 240px;
+    background: #fff;
+}
+.right_top_personalInfo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-bottom: -20px;
+}
+#writer_id {
+    font-size: 24px;
+    font-weight: bold;
+}
+.attend_attention_fans{
+    margin-top: -20px;
+    border-top: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+.attend_attention_fans a:hover{
+    color: #51a47a;
+}
+.attend_attention_fans span {
+    display: inline-block;
+    width: 50px;
+    height:40px;
+    color: #000;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.attend_attention_fans h2{
+    font-size: 18px;
+    margin: 0;
+}
+.signIn_time_mission{
+    margin-top: 10px;
+    background: #fff;
+    height:40px;
+   padding-bottom: 10px;
+}
+.signIn_time_mission li{
+    display: inline-block;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 78px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.signIn_time_mission li:hover{
+    border: 1px solid #51a47a;
+
+}
+.signIn_time_mission ul a:first-of-type li{
+    margin-left: -40px;
+}
+
+/*我的排名*/
+.right_box{
+    width: 220px;
+    height: 160px;
+    background: #fff;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+.right_box h3{
+    border-bottom:1px solid #ccc;
+    margin-top: 10px;
+    padding:15px;
+    color: #51a47a;
+    font-weight: normal;
+}
+.box_content ol{
+    list-style: decimal;
+    text-align: left;
+    padding-left: 10px;
+}
+.box_content ol li{
+    list-style: decimal;
+    line-height: 30px;
+    position: relative;
+}
+.box_content ol li span{
+    position: absolute;
+    top:0;
+    right:3px;
+}
+.box_content ol a:hover{
+    color: #51a47a;
+}
+.box_title{
+    position: relative;
+}
+.box_title a{
+    color: #ccc;
+}
+.box_title a:hover{
+    color: #51a47a;
+}
+#achievement,#hot_degree{
+    font-size: 14px;
+    padding:0 3px;
+}
+#achievement{
+    position: absolute;
+    top:33px;
+    right:0px;
+    
+}
+#hot_degree{
+    position: absolute;
+    border-right:1px solid #51a47a;
+    top:33px;
+    right:30px;
+    margin-right: 6px;
+}
+/* content_right finish 页面主体右边内容区*/

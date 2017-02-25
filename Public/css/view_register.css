@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.register-box{
+    margin: 40px 730px;
+    width: 500px;
+    padding: 70px 30px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 25px 3px #51a47a;
+    background: #fff;
+}
+
+.my_submit{
+    width:280px;
+    height: 40px;
+    color: #fff;
+    background: #51a47a;
+    border: none;
+    margin-left: 120px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.agreement{
+    margin-left: 120px;
+    color: gray;
+}
+.agreement a{
+    color: #51a47a;
+}
+.agreement input{
+    margin-right: 10px;
+}
+#imme_login{
+    margin-left: 55%;
+    display: inline-block;
+    margin-top: 20px;
+}
+#imme_login a{
+    color: #51a47a;
+}

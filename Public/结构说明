@@ -1,0 +1,9 @@
+css：存放整个网站所需的css
+img：存放网站所需的所有静态图
+js：存放整个网站所需的js
+daixu_picture：存放用户与
+daixu_picture/adv：存放广告用图
+daixu_picture/figure：存放帖子中的所有图片
+daixu_picture/user：存放用户相关图片
+daixu_picture/game：存放游戏相关图片
+daixu_picture/shop：存放商城相关图片

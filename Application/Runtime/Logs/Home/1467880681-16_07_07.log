@@ -1,0 +1,32 @@
+[ 2016-07-07T16:38:01+08:00 ] 121.42.165.45 /User/info_select/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 1 )  [ RunTime:0.0762s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 5 )  [ RunTime:0.0362s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 8 )  [ RunTime:0.0629s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 12 )  [ RunTime:0.0386s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 15 )  [ RunTime:0.0404s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 18 )  [ RunTime:0.0582s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 23 )  [ RunTime:0.0408s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 29 )  [ RunTime:0.0499s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 56 )  [ RunTime:0.1086s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 57 )  [ RunTime:0.0752s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 59 )  [ RunTime:0.0373s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 72 )  [ RunTime:0.0411s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 75 )  [ RunTime:0.0436s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 79 )  [ RunTime:0.0623s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 84 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 80 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 91 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 93 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 96 )  [ RunTime:0.1928s ]
+SQL: SELECT * FROM `user` WHERE ( user_id = 99 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+

@@ -1,0 +1,381 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="" content="">
+    <link rel="stylesheet" type="text/css" href="/Public/css/public.css">
+    <link rel="stylesheet" type="text/css" href="/Public/css/article.css">
+    <title>待续-<?php echo ($article_first["article_name"]); ?></title>
+
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<!--头部导航栏-->
+<div class="title_whole">
+    <div class="title_body">
+        <img src="/Public/img/daixu_logo.png">
+        <div class="title_search">
+            <form>
+                <div><input type="text" placeholder="    搜索关键字"></div>
+            </form>
+        </div>
+        <a href="/Daixu">首页</a>
+        <a href="/Daixu/classify">分类</a>
+        <a href="/Daixu/end_article">完结</a>
+        <a href="/Daixu/game">游戏</a>
+        <a href="/Daixu/shopping">商城</a>
+        <a href="/Daixu/app">APP</a>
+        <div><a class="title_publish" href="/Daixu/publish"><p>发布</p></a></div>
+        <div id="title_login">
+            <img src="/Public/img/title_person.png">
+            <a href="/Daixu/view_login">登录</a>
+            <input value="<?php echo ($login_user_info["user_id"]); ?>" type="hidden">
+            <a class="title_register" href="/Daixu/view_register">注册</a>
+        </div>
+        <a href="/Daixu/notice" id="notice_news_num"><?php echo ($notice_news_num); ?></a>
+        <div id="title_personal">
+            <img src="/Public/img/title_person.png">
+            <a href="/Daixu/personal?user_id=<?php echo ($login_info["user_id"]); ?>" id="fixed_wid_username"><?php echo ($login_info["user_name"]); ?></a>
+            <a class="title_register" href="/Action/del_login">退出</a>
+        </div>
+    </div>
+</div>
+
+<!--主体-->
+<div class="content_whole">
+    <div class="surface_img_wrap">
+        <img class="surface_img" src="<?php echo ($article_first["article_surface"]); ?>">
+    </div>
+    <!-- 文章头部块-->
+    <div class="article_first_info">
+        <p class="article_name"><?php echo ($article_first["article_name"]); ?></p>
+        <p class="author_name"><?php echo ($article_first["user_name"]); ?></p>
+
+    </div>
+
+    <!-- 文章信息栏-->
+    <div>
+        <div class="article_second_info">
+            <div>
+            <a class="button_fine">申精</a>
+            <a class="button_end">申请完结</a>
+            <a href="javascript: collection()"><img class="img_star" src="/Public/img/star_admire.png" title="点赞" alt="点赞"></a>
+            <span class="span1_mode">模式：<?php echo ($article_first["article_mode"]); ?></span>
+            <span class="span2_mode">分类：<?php echo ($article_first["article_classify"]); ?></span>
+            <span class="span3_time">发布时间：<?php echo ($article_first["article_publish"]); ?></span>
+            <span class="span4_total">共<?php echo ($article_first["article_total"]); ?>楼</span>
+            </div>
+        </div>
+        <hr>
+        <div class="my_rule">
+            <span>规则：</span>
+            <pre>
+            <?php echo ($article_first["article_rule"]); ?>
+            </pre>
+        </div>
+    </div>
+
+    <!-- 文章主体楼-->
+    <div class="article_content">
+        <div>
+            <img src="<?php echo ($article_first["user_img"]); ?>" alt="headImg">
+            <a href="/Daixu/personal?user_id=<?php echo ($article_first["user_id"]); ?>"><?php echo ($article_first["user_name"]); ?>：</a>
+            <img src="/Public/img/five_star.png">
+            <img src="/Public/img/bookmark.png">
+        </div>
+
+        <p>
+            <?php echo ($article_first["article_content"]); ?>
+        </p>
+
+        <hr>
+        <div class="state_box">
+            <span>初始楼</span>
+            <a><span><?php echo ($article_first["article_publish"]); ?></span></a>
+            <a>赞（<?php echo ($article_first["article_praise"]); ?>）</a>
+            <!--<a>评论（<?php echo ($article_first["article_"]); ?>）</a>-->
+        </div>
+    </div>
+
+    <?php if(is_array($article_content)): $i = 0; $__LIST__ = $article_content;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$article_content): $mod = ($i % 2 );++$i;?><div class="article_content">
+            <div>
+                <img src="<?php echo ($article_content["user_img"]); ?>" alt="headImg">
+                <a href="/Daixu/personal?user_id=<?php echo ($article_content["user_id"]); ?>"><?php echo ($article_content["user_name"]); ?>：</a>
+                <img src="/Public/img/five_star.png">
+                <img src="/Public/img/bookmark.png">
+            </div>
+
+            <p>
+                <?php echo ($article_content["continue_content"]); ?>
+            </p>
+            <hr>
+            <div class="state_box">
+                <span><?php echo ($i); ?>楼</span>
+                <span><?php echo ($article_content["continue_time"]); ?></span>
+                <a>赞（<?php echo ($article_content["continue_praise"]); ?>）</a>
+                <a href="javascript:check_del_continue('<?php echo ($article_content["continue_id"]); ?>')">删除</a>
+                <!--<a>评论（<?php echo ($article_first["article_"]); ?>）</a>-->
+            </div>
+        </div><?php endforeach; endif; else: echo "" ;endif; ?>
+
+    <div class="rob_floor" id="floor_tip_login">
+        <hr>
+        <span>只有登录的用户才能回复</span>
+    </div>
+
+    <!-- 只有抢接楼才会有，抢接栏-->
+    <div class="rob_floor" id="rob_floor">
+        <div><a href="/Action/action_droit?article_id=<?php echo ($article_first["article_id"]); ?>">抢</a></div>
+        <hr>
+    </div>
+
+    <div class="rob_floor" id="rob_floor_write">
+        <div><a>抢</a></div>
+        <hr>
+        <span>请在5分钟内完成（如果没能按时完成，您将受到禁言1小时的惩罚）</span>
+        <input  id="time_limit_show"/>
+    </div>
+
+    <div class="rob_floor" id="rob_floor_wait">
+        <hr>
+        <!--接楼者看到第一条，其他用户看到第二条-->
+        <span>此楼已被抢，等待下一波机会</span>
+    </div>
+
+    <!-- 禁言栏-->
+    <div class="rob_floor" id="rob_floor_ban">
+        <hr>
+        <span>目前您不能抢接这篇文章，可能的原因：1、您有抢接的文章未完成。2、您在规定时间内未完成接龙，所以被禁言1小时）</span>
+    </div>
+
+    <div class="rob_floor" id="rob_floor_other">
+        <hr>
+        <span>您有抢接的文章未完成，所以暂时无法进行其他续写</span>
+    </div>
+
+    <!-- 回复栏-->
+    <div class="reply_box" id="reply_box">
+        <div>
+            <a id="button_get_draft">引用草稿</a>
+        </div>
+        <div id="get_draft">
+
+        </div>
+        <div>
+            <textarea id="editor_id" name="continue_content" style="width:935px;height:500px;resize: none;">
+            </textarea>
+        </div>
+        <div>
+            <button type="submit" id="button_reply">发布</button>
+            <button>取消</button>
+        </div>
+    </div>
+
+    <div id="demo_submit"></div>
+</div>
+
+<script src="/Public/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="/Public/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/Public/js/public.js" type="text/javascript"></script>
+<script charset="utf-8" src="/Public/editor/kindeditor.js"></script>
+<!--以下js不能单独放入js文件中-->
+<script type="text/javascript">
+    //页面启动时自动运行
+    $(document).ready(function() {
+        //通过用户id检查显示状态
+        if($.cookie('user_id')) {
+            //$article_rap表示你是否被禁言，如果被禁言，则直接显示禁言栏
+            if ("<?php echo ($article_rap); ?>" == '4') {
+                $("#floor_tip_login").css('display', 'none');
+                $("#rob_floor_ban").css('display', 'block');
+            } else {
+                switch ("<?php echo ($article_first["article_mode_num"]); ?>") {
+                    //个人
+                    case '1':
+                        var user_id = $.cookie('user_id');
+                        if (user_id == "<?php echo ($article_first["article_author"]); ?>") {
+                            $("#floor_tip_login").css('display', 'none');
+                            $("#reply_box").css('display', 'block');
+                        }
+                        break;
+                    //抢接
+                    case '2':
+                        switch ("<?php echo ($article_rap); ?>") {
+                            //如果为1表示没有被人抢
+                            case '1':
+                                $("#floor_tip_login").css('display', 'none');
+                                $("#rob_floor").css('display', 'block');
+                                break;
+                            //2表示你正在续写阶段
+                            case '2':
+                                $("#floor_tip_login").css('display', 'none');
+                                $("#rob_floor_write").css('display', 'block');
+                                $("#reply_box").css('display', 'block');
+
+                                $("#time_limit_show").text('123');
+                                settime();
+                                break;
+                            //3表示不能抢
+                            case '3':
+                                $("#floor_tip_login").css('display', 'none');
+                                $("#rob_floor_wait").css('display', 'block');
+                        }
+                        break;
+                    //自由续写
+                    case '3':
+                        $("#floor_tip_login").css('display', 'none');
+                        $("#reply_box").css('display', 'block');
+                        break;
+                }
+            }
+        }
+
+        //用ajax获取草稿数据
+        $("#button_get_draft").click(function(){
+            $.get("/Ajax/ajax_draft_list?draft_type=1&&article_id=<?php echo ($article_id); ?>",function(result){
+                $("#get_draft").html(result);
+            });
+        });
+    });
+
+    //抢接倒计时
+    var countdown="<?php echo ($redis_time); ?>";
+    function settime() {
+        var obj = document.getElementById("time_limit_show");
+
+        if (countdown == 0) {
+            alert('时间到');
+            window.location.href="article?article_id=<?php echo ($article_first["article_id"]); ?>";
+        } else {
+            obj.setAttribute("disabled", true);
+            obj.value="剩余时间(" + countdown + ")";
+            countdown--;
+        }
+        setTimeout(function() {
+            settime(obj)
+        },1000)
+    }
+
+    //KindEditor脚本
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('#editor_id', {
+            items : ['undo','redo','cut','copy','paste','selectall','justifyleft','justifycenter','justifyright','fontname','fontsize','forecolor','bold','image','emoticons'],
+        });
+        editor.html("<?php echo ($draft_content); ?>");
+    });
+
+    //点击删除按钮后，进行检测
+    function check_del_continue(continue_id){
+        if ("<?php echo ($login_info["user_id"]); ?>" != "<?php echo ($article_first["user_id"]); ?>") {
+            alert('您不是该篇接龙的发起人，故无法删除');
+        }else{
+            window.location.href="/Action/del_continue?article_id=<?php echo ($article_id); ?>&&continue_id="+continue_id;
+        }
+    }
+
+    //点击收藏按钮事件
+    function collection(){
+        var int_article_classify
+        switch ('<?php echo ($article_first["article_classify"]); ?>'){
+            case '恐怖悬疑':
+                int_article_classify = 1;
+                break;
+            case '都市言情':
+                int_article_classify = 2;
+                break;
+            case '仙侠玄幻':
+                int_article_classify = 3;
+                break;
+            case '武侠古风':
+                int_article_classify = 4;
+                break;
+            case '其他续写':
+                int_article_classify = 5;
+                break;
+        }
+        $.get("/Add/collection_article?article_id=<?php echo ($article_id); ?>&&article_classify="+int_article_classify,function(result){
+
+            switch (result){
+                case '1':
+                    alert('收藏成功');
+                    break;
+                case '2':
+                    alert('收藏失败');
+                    break;
+                case '3':
+                    alert('您已经收藏过该篇文章了');
+                    break;
+            }
+        });
+    }
+
+    //发送接龙表单
+    $("#button_reply").click(function(){
+        //续写前进行内容的检查
+        editor.sync();//同步KindEditor的内容
+        var value_continue = $('#editor_id').val();
+        if(value_continue==''){
+            alert('信息未填完整');
+            return false;
+        }
+        if(value_continue.length>2500){
+            alert('续写请小于2500个字符');
+            return false;
+        }
+
+        // 取得要提交的参数
+        var value_article_id = "<?php echo ($article_first["article_id"]); ?>";
+        var value_article_mode = "<?php echo ($article_first["article_mode_num"]); ?>";
+        var value_article_author = "<?php echo ($article_first["article_author"]); ?>";
+        var value_article_name = "<?php echo ($article_first["article_name"]); ?>";
+        var value_article_total = "<?php echo ($article_first["article_total"]); ?>";
+
+        // 取得要提交页面的URL
+        var action = '/Add/add_continue';
+        //创建html框架
+        var frameHTML = $('<html></html>>');
+        var html_body = $('<body></body>');
+        var html_head = $('<head>')
+        // 创建Form
+        var form = $('<form></form>');
+        // 设置属性
+        form.attr('action', action);
+        form.attr('method', 'post');
+        // form的target属性决定form在哪个页面提交
+        // _self -> 当前页面 _blank -> 新页面
+        form.attr('target', '_self');
+        // 创建Input
+        var input_article_id = $('<input type="text" name="article_id" />');
+        var input_continue_content = $('<input type="text" name="continue_content" />');
+        var input_article_mode = $('<input type="text" name="article_mode" />');
+        var input_article_author = $('<input type="text" name="article_author" />');
+        var input_article_name = $('<input type="text" name="article_name" />');
+        var input_article_total = $('<input type="text" name="article_total" />');
+
+        input_article_id.attr('value', value_article_id);
+        input_continue_content.attr('value', value_continue);
+        input_article_mode.attr('value', value_article_mode);
+        input_article_author.attr('value', value_article_author);
+        input_article_name.attr('value', value_article_name);
+        input_article_total.attr('value', value_article_total);
+        // 附加到Form
+        form.append(input_article_id);
+        form.append(input_continue_content);
+        form.append(input_article_mode);
+        form.append(input_article_author);
+        form.append(input_article_name);
+        form.append(input_article_total);
+        $("#demo_submit").append(form);
+        // 提交表单
+        form.submit();
+        // 注意return false取消链接的默认动作
+        return false;
+    });
+
+</script>
+</body>
+</html>

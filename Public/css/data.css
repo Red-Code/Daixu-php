@@ -1,0 +1,116 @@
+/* 左边我的资料 begin */
+.mydata_top{
+	width: 690px;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	color: #51a47a;
+	line-height: 50px;
+}
+
+/* 左边详细个人资料 begin */
+.data_content{
+	width: 690px;
+	height: 800px;
+	background: #fff;
+	margin-top: 15px;
+}
+#data_modify{
+	border: 1px solid #51a47a;
+	float: right; 
+	margin:30px 40px 0 0;
+    display: block;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.data_content a{
+	font-size: 12px;
+    color: #51a47a;
+    width: 60px;
+    display: block;
+}
+.data_content a:hover{
+    color: #fff;
+    background: #51a47a;
+}
+
+.data_content ul{
+	clear: both;
+	margin-left: 50px;
+	padding:30px;
+	display: block;
+}
+
+.data_content ul li{
+	line-height: 30px;
+	float: none;
+	margin-top: -10px;
+	border-bottom: 1px dotted gray;
+	color: #7c7c7c;
+	padding: 20px;
+	padding-left: 120px;
+	color: gray;
+	font-weight: bold;
+}
+.data_content ul li i{
+	margin-left: 50px;
+	color: #51a47a;
+
+}
+.data_content ul li input{
+    float: right; 
+	margin-right: 200px;
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+}
+/* 左边详细个人资料 finish */
+
+/* 左边我的资料 finish */
+
+#change_info{
+	display: none;
+}
+#change_info>form{
+	margin-top: 25px;
+	background: white;
+}
+#change_info ul li{
+	float: none;
+	line-height: 30px;
+	float: none;
+	margin-top: -10px;
+	border-bottom: 1px dotted gray;
+	color: #7c7c7c;
+	padding: 20px;
+	padding-left: 120px;
+	color: gray;
+	font-weight: bold;
+}
+#change_info ul li i{
+	margin-left: 50px;
+	color: #51a47a;
+}
+#change_info ul li input{
+	margin: 0 20px 0 50px;
+}
+#change_info ul li input[type='text']{
+	width:200px;
+	height:30px;
+	border-radius: 10px;
+	padding: 0 20px;
+	border:1px solid gray;
+}
+#change_info button{
+	width:120px;
+	height:50px;
+	color: #fff;
+	background: #51a47a;
+	border:none;
+	border-radius: 10px;
+	margin:50px 40%;
+	cursor: pointer;
+}

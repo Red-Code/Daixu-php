@@ -1,0 +1,17 @@
+[ 2016-07-21T23:10:31+08:00 ] 121.42.165.45 /Article/select_nine_article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1215s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0314s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0112s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0382s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+

@@ -1,0 +1,323 @@
+/* public begin */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft YaHei";
+}
+li{
+	/* list-style: none; */
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* public finish */
+
+/* 最外层包裹层 begin */
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+	background: #E4E4E6;
+	padding-top: 25px;
+	padding-bottom: 400px;
+	overflow: hidden;
+}
+
+/* 顶部内容块 begin */
+.top_box{
+	width: 880px;
+	height: 400px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 35px;
+	position: relative;
+}
+.top_box h1{
+	font-size: 24px;
+}
+.top_box img{
+	position: absolute;
+	right: 35px;
+	top: 35px;
+}
+.top_box>span{
+   display: inline-block;
+   width: 80px;
+   height: 30px;
+   border: 1px solid #51a47a;
+   margin: 100px 20px 50px 0;
+   text-align: center;
+   line-height: 30px;
+   cursor: pointer;
+}
+.top_box>span a:hover{
+   color: #fff;
+   background: #51a47a;
+   display: block;
+   width: 80px;
+   height: 30px;
+}
+.top_box>i{
+	margin-left: 120px;
+	font-style: normal;
+	font-size: 14px;
+}
+.top_box>dl{
+	margin-top: 20px;
+}
+.top_box ol  li{
+	margin: 10px 0 0 100px;
+
+}
+/* 顶部内容块 begin */
+
+/* 左边内容块 begin */
+.left_content{
+       width: 660px;
+       margin:30px 0 30px;
+       overflow: hidden;
+       float: left;
+       padding-left: 25px;
+}
+/* 左边发布内容块 begin */
+.left_publish_content{
+       width: 600px;
+       background: #fff;
+       padding:30px;
+       overflow: hidden;
+       margin-bottom: 20px;
+}
+
+.left_publish_content p{
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.left_publish_content span{
+	margin-top: 20px;
+	display: block;
+	font-size: 14px;
+}
+.left_publish_content i{
+	margin-left: 300px;
+	font-style: normal;
+}
+/* 左边发布内容块 finish */
+
+/* 左边评论内容块 begin */
+.left_content_comment{
+       width: 600px;
+       background: #F1F2F1;
+       padding:30px;
+       position: relative;
+       margin-bottom: 20px;
+}
+#smile_face{
+	margin:10px 0 25px 10px;
+} 
+.left_content_comment textarea{
+	vertical-align: top;
+}
+.left_content_comment .head_img{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 0 30px 20px 0;
+	float: left;
+
+}
+#left_comment{
+	display: block;
+	width: 60px;
+	height: 30px;
+	background: #4DA779;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	position: absolute;
+	right: 90px;
+	top: 110px;
+	cursor: pointer;
+}
+#all_comments{
+	margin: 10px 0 20px 450px;
+    display: block; 
+    color: #ccc;
+    font-size: 14px;
+    /* float: left;  */
+}
+.left_content_comment p{
+	line-height: 35px;
+}
+.left_content_comment p span:nth-child(1){
+    margin-left: 180px;
+}
+.left_content_comment p span:nth-child(2){
+   border-right: 1px solid #ccc;
+   padding-right: 10px;
+}
+.left_content_comment p i{
+	font-size: 14px;
+	color: gray;
+	margin-bottom: 10px;
+	display: block;
+} 
+#check_more{
+	display: block;
+	border: 1px solid #51a47a;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin:20px auto;
+	margin-bottom: -10px;
+    cursor: pointer;
+}
+/* 左边评论内容块 finish */
+
+/* 抢楼层块 begin */
+.rob_floor{
+   width: 660px;
+   background: #fff;
+   padding: 80px 0;
+   position: relative;
+   margin-bottom: 20px;
+}
+.rob_floor img{
+	position: absolute;
+	left:240px;
+	top: 20px;
+}
+.rob_floor p{
+	margin: 120px auto 20px;
+	text-align: center;
+	line-height: 30px;
+}
+.rob_floor p span{
+	font-size: 14px;
+	color: gray;
+}
+/* 抢楼层块 finish */
+
+/* 编辑区 begin */
+.edit_box{
+   width: 600px;
+   background: #fff;
+   padding:30px;
+   margin-bottom: 20px;
+}
+.edit_box h3{
+	margin-left: 230px;
+	font-weight: normal;
+}
+.edit_box p{
+	display: block;
+	background: #F4F5F4;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    color: gray;
+}
+.edit_box p span{
+	margin-left: 30px;
+	cursor: pointer;
+}
+.edit_box textarea{
+	background: #E5E6E5;
+	border: none;
+}
+.edit_box>span{
+	height: 30px;
+	width: 80px;
+	display: inline-block;
+	border: 1px solid #51a47a;
+	margin-left: 30px;
+	margin-top: 35px;
+	text-align: center;
+	line-height: 30px;
+} 
+.edit_box #cancel{
+	margin-left: 370px;
+}
+.edit_box>span a{
+	display: block;
+	height: 30px;
+	width: 80px;
+	cursor: pointer;
+}
+.edit_box>span a:hover{
+	color: #fff;
+	background: #51a47a;
+}
+.edit_box ul{
+	margin-left: 30px;
+}
+.edit_box ul li{
+	width: 60px;
+	height: 100px;
+	border:1px solid red;
+	list-style: none;
+	display: inline-block;
+	margin: 40px 0; 
+}
+/* 编辑区 finish */
+
+/* 左边内容块 finish */
+
+/* 右边内容块 begin */ 
+.right_content{
+	width: 280px;
+	float: right;
+	margin: 30px 25px 0 10px;
+}
+
+/* 关注块 begin */
+
+.attent_box{
+	height: 200px;
+	background: #F3F4F3;
+	padding:25px 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+	position: relative;
+}
+.attent_box i{
+	margin-left: 210px;
+	font-style: normal;
+}
+.attent_box>p{
+	border-bottom: 1px solid #ccc;
+	margin-top: 60px;
+	text-align: center;
+	padding:20px;
+}
+.attent_box>p>span{
+	font-size: 14px;
+	color: gray;
+}
+.attent_box #attent_line{
+	border-right: 1px solid #ccc;
+}
+.attent_box>span{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 5px;
+}
+.attent_box img{
+	position: absolute;
+	left:-20px;
+	top: 20px;
+	height: 20px;
+	width: 20px;
+}
+/* 关注块 finish */
+
+/* 右边内容块 finish */ 
+
+/* 最外层包裹层 finish */

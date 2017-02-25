@@ -1,0 +1,1318 @@
+[ 2016-09-18T20:49:53+08:00 ] 202.115.92.68 /Daixu/personal?user_id=834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notice` WHERE `notice_receive` = 834 AND `notice_read` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `article_author` = 834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `article_author` = 834 ORDER BY article_publish desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_exp` FROM `user` WHERE `user_id` = 834 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `user_exp` > '120' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/62c41ab2cf4208863c739bedd5d779a6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-09-18T20:49:53+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/2.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E6%81%90%E6%80%96%E6%82%AC%E7%96%91%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:00:58%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab2b9c0e09.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:49:53+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E4%BB%99%E4%BE%A0%E7%8E%84%E5%B9%BB%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:06:04%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de74d7d92d9.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004531s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:49:53+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/1.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:04:55%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de73ead14e5.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:49:53+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:53%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab286de3f4.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:49:54+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:02%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab257a1bac.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Daixu/personal?user_id=834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `article_author` = 834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `article_author` = 834 ORDER BY article_publish desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/62c41ab2cf4208863c739bedd5d779a6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/2.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E6%81%90%E6%80%96%E6%82%AC%E7%96%91%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:00:58%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab2b9c0e09.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/1.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:04:55%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de73ead14e5.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E4%BB%99%E4%BE%A0%E7%8E%84%E5%B9%BB%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:06:04%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de74d7d92d9.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:53%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab286de3f4.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:12+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:02%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab257a1bac.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Daixu/personal?user_id=834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notice` WHERE `notice_receive` = 834 AND `notice_read` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `article_author` = 834 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `article_author` = 834 ORDER BY article_publish desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: login_user_info /var/www/html/daixu/Application/Runtime/Cache/Home/62c41ab2cf4208863c739bedd5d779a6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/2.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E6%81%90%E6%80%96%E6%82%AC%E7%96%91%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:00:58%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab2b9c0e09.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E4%BB%99%E4%BE%A0%E7%8E%84%E5%B9%BB%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:06:04%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de74d7d92d9.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/1.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:04:55%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de73ead14e5.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:53%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab286de3f4.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:50:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20begin%20--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:02%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E5%9B%9E%E5%A4%8D%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%BA%95%E9%83%A8%20%20finish%20--%3E%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab257a1bac.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:51:54+08:00 ] 202.115.92.68 /Daixu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 834  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-09-18T20:51:54+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_1%22%3E%E4%BB%99%E4%BE%A0%E7%8E%84%E5%B9%BB%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:06:04%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de74d7d92d9.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:51:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/2.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_3%22%3E%E6%81%90%E6%80%96%E6%82%AC%E7%96%91%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:00:58%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/-2d5d97374f9cf2c3.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=793%22%3E%3Ch3%20id=%22%22%3E123%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dcae4a0d316.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:51:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_6%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:53%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab286de3f4.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:51:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/1.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_2%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:04:55%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de73ead14e5.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T20:51:55+08:00 ] 202.115.92.68 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_7%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:02%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab257a1bac.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:13:09+08:00 ] 110.156.233.87 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-09-18T21:13:10+08:00 ] 110.156.233.87 /Android/user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-09-18T21:13:16+08:00 ] 110.156.233.87 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-09-18T21:13:31+08:00 ] 110.156.233.87 /Action/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `user_id`,`user_password` FROM `user` WHERE `user_account` = '123'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-09-18T21:13:32+08:00 ] 110.156.233.87 /Action/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `user_id`,`user_password` FROM `user` WHERE `user_account` = '123'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-09-18T21:13:39+08:00 ] 110.156.233.87 /Action/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`user_password` FROM `user` WHERE `user_account` = '123'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-09-18T21:13:40+08:00 ] 110.156.233.87 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-09-18T21:13:42+08:00 ] 110.156.233.87 /Android/user_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-09-18T21:13:49+08:00 ] 110.156.233.87 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-09-18T21:14:50+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-09-18T21:16:24+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-09-18T21:26:34+08:00 ] 202.115.92.118 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-09-18T21:26:40+08:00 ] 202.115.92.118 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-09-18T21:27:01+08:00 ] 202.115.92.118 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `notice` WHERE `notice_receive` = 793 AND `notice_read` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-09-18T21:27:02+08:00 ] 202.115.92.118 /Public/editor/plugins/emoticons/images/1.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_2%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:04:55%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de73ead14e5.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:27:02+08:00 ] 202.115.92.118 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_1%22%3E%E4%BB%99%E4%BE%A0%E7%8E%84%E5%B9%BB%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:06:04%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57de74d7d92d9.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:27:02+08:00 ] 202.115.92.118 /Public/editor/plugins/emoticons/images/2.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_3%22%3E%E6%81%90%E6%80%96%E6%82%AC%E7%96%91%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-18%2019:00:58%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/-2d5d97374f9cf2c3.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=793%22%3E%3Ch3%20id=%22%22%3E123%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dcae4a0d316.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:27:02+08:00 ] 202.115.92.118 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_6%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:53%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab286de3f4.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:27:02+08:00 ] 202.115.92.118 /Public/editor/plugins/emoticons/images/0.gif&...%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/p%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_left%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/classify_icon.jpg%22%20class=%22classify_icon%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id=%22article_classify_7%22%3E%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85%3C/span%3E%C2%A0%C2%A0%C2%A0%C2%A0%3Cspan%20class=%22gray_color%22%3E2016-09-15%2022:39:02%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_bottom_right%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E8%B5%9E%EF%BC%88%3Ci%20id=%22%22%3E0%3C/i%3E%EF%BC%89%3C/span%3E%3Cspan%20class=%22gray_color%22%20id=%22%22%3E%E6%80%BB%E6%A5%BC%E6%95%B0%EF%BC%88%3Ci%20id=%22%22%3E1%3C/i%3E%EF%BC%89%3C/span%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%3C!--%20publish_content%20%20finish--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%3Cdiv%20class=%22publish_content%22%3E%3C!--%20publish_content%20%20begin--%E8%AF%BB%E8%80%85%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%9D%97--%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_top%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/user/57ca2b8edd6cd.jpg%22%20id=%22%22%3E%3Ca%20href=%22/Daixu/personal?user_id=834%22%3E%3Ch3%20id=%22%22%3Ehandsome%3C/h3%3E%3C/a%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/img/add.jpg%22%20class=%22add%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=%22publish_content_center%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src=%22/Public/daixu_picture/figure/57dab257a1bac.jpg%22%20class=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-09-18T21:30:01+08:00 ] 180.163.1.46 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-09-18T21:41:49+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-09-18T22:09:13+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-09-18T22:09:22+08:00 ] 202.115.92.118 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0004s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-09-18T22:09:25+08:00 ] 202.115.92.118 /Android/article_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `continue` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE `article_id` = 1128  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `continue` WHERE `continue_head` = 1128 ORDER BY continue_head  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `continue_author` FROM `continue` WHERE `continue_head` = 1128  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: redis_time /var/www/html/daixu/Application/Home/Controller/AndroidController.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-09-18T22:26:06+08:00 ] 171.88.127.6 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-09-18T22:34:23+08:00 ] 202.115.92.68 /Android/article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where_article_select /var/www/html/daixu/Application/Home/Model/ArticleListModel.class.php 第 77 行.
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-09-18T22:35:55+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-09-18T23:02:50+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-09-18T23:15:20+08:00 ] 80.82.70.24 http://httpheader.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-09-18T23:30:06+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0003s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-09-18T23:51:04+08:00 ] 107.151.202.23 http://www.sbjudge3.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-09-18T23:51:27+08:00 ] 107.151.202.23 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-09-18T23:59:45+08:00 ] 111.251.92.41 mx-tw.mail.gm0.yahoodns.net:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `adv` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY article_update desc LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0002s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 793  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_img` FROM `user` WHERE `user_id` = 834  [ RunTime:0.0001s ]
+SQL: SELECT `user_id`,`user_name`,`user_exp`,`user_img`,`user_brief` FROM `user` ORDER BY user_exp desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 793  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 794  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 32 行.
+NOTIC: [8] Undefined variable: notice_news_num /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 35 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 38 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 116 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 117 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 119 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 120 行.
+NOTIC: [8] Undefined variable: login_info /var/www/html/daixu/Application/Runtime/Cache/Home/e47f4754f315ce581fa03e89eac20acb.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+

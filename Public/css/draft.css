@@ -1,0 +1,137 @@
+/* 顶部类型块 begin */
+.content_left .draft_type,.content_left .new_draft{
+	width: 690px;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	color: #51a47a;
+	line-height: 50px;
+	margin-bottom: 15px;
+}
+.draft_type span{
+	height: 50px;
+	width: 300px;
+	display: inline-block;
+}
+.draft_type span a{
+	color: #5D5E5E;
+    display: inline-block;
+	height: 50px;
+	width: 300px;
+}
+#jielong_draft{
+	border-bottom: 2px solid #51a47a;
+	color: #51a47a;
+}
+.draft_type span a:hover{
+	border-bottom: 2px solid #51a47a;
+	color: #51a47a;
+}
+/* 顶部类型块 finish */
+
+/* 草稿内容块 begin */
+.new_draft img{
+	float: left;
+	margin:12px -270px 0 250px; 
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.new_draft img:hover{
+	border: 1px solid #51a47a;
+	border-radius: 50%;
+}
+.draft_content{
+	width: 690px;
+	background: #fff;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.draft_content>span{
+	margin:20px 40px;
+	display: inline-block;
+	line-height: 30px;
+}
+.draft_content .operate_item{
+	margin-left: 40px;
+	margin-top: 20px;
+	color:#ccc;
+	font-size: 12px;
+}
+.operate_item a{
+	color:#ccc;
+	font-size: 12px;
+}
+.draft_content .operate_item span{
+	margin-left:360px;
+}
+.operate_item span i{
+	color: #000;
+	font-size: 16px;
+	cursor: pointer;
+}
+.operate_item span i:hover,#origin_article:hover{
+	color: #51a47a;
+}
+button[type="submit"]{
+	width: 120px;
+	height: 45px;
+	background: #51a47a;
+	color: #fff;
+	text-align: center;
+	margin: 20px 10px;
+	border:none;
+	cursor: pointer;
+	margin-left: 575px;
+}
+/* 草稿内容块 finish */
+
+/*底部分页块 begin*/
+/*.current,.num,.next,.prev{*/
+	/*display: inline-block;*/
+	/*text-align: center;*/
+	/*line-height: 30px;*/
+	/*color: #51a47a;*/
+	/*border:1px solid #51a47a;*/
+	/*cursor: pointer;*/
+/*}*/
+/*.current {*/
+	/*color: #fff;*/
+	/*background: #51a47a;*/
+	/*margin: 0 5px 0 0px;*/
+	/*height: 30px;*/
+	/*width:50px;*/
+/*}*/
+
+/*.num{*/
+	/*height: 30px;*/
+	/*width:50px;*/
+	/*margin-right: 5px;*/
+/*}*/
+/*.next,.prev{*/
+	/*height: 30px;*/
+	/*width:90px;*/
+/*}*/
+
+/*.rows{*/
+	/*/!*margin-left: 450px;*!/*/
+	/*margin-top: 30px;*/
+	/*color: #787878;*/
+	/*word-spacing: 10px;*/
+	/*letter-spacing: 3px;*/
+/*}*/
+/*.rows b{*/
+	/*color: #51a47a;*/
+/*}*/
+/*#jielong_wrap .rows{*/
+	/*margin-left: 450px;*/
+/*}*/
+/*#publish_wrap div:last-of-type{*/
+	/*margin-left: 320px;*/
+/*}*/
+/*底部分页块 finish*/
+
+/*kindeditor样式*/
+.textarea_kindeditor{
+	width: 690px;
+	height: 300px;
+}

@@ -1,0 +1,1700 @@
+[ 2016-07-14T00:01:25+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023865s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T00:15:16+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020878s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T00:20:35+08:00 ] 23.251.51.125 http://www.luisaranguren.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018924s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T00:20:36+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026528s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0182s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T00:29:35+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025757s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T00:43:16+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017857s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T00:57:14+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021834s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T01:01:54+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019897s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0119s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T01:01:55+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019282s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T01:11:07+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022842s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T01:25:10+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020817s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T01:38:54+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024799s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T01:52:57+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021812s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T02:06:58+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026810s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T02:11:21+08:00 ] 23.251.51.125 http://www.luisaranguren.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031688s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T02:11:22+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034575s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0147s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T02:20:43+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025833s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T02:22:00+08:00 ] 42.159.226.217 http://maxcd03-dev01.chinacloudapp.cn/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037188s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0162s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T02:34:36+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019903s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T02:48:42+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017934s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T03:02:46+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023805s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T03:06:42+08:00 ] 91.196.50.33 http://testp4.pospr.waw.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024011s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-07-14T03:17:14+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028406s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T03:45:24+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018854s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T03:56:11+08:00 ] 23.251.51.125 http://www.proxy-listen.de/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021812s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T03:56:12+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021905s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0068s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T03:59:16+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019839s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T04:13:11+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031705s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T04:27:22+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004503s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022851s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T04:40:17+08:00 ] 91.228.136.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018907s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0078s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T04:54:46+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023818s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T05:08:50+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017889s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T05:22:50+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024814s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T05:36:40+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036715s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T05:50:33+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020853s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T06:04:36+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017894s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T06:18:46+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018816s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T06:33:13+08:00 ] 222.187.222.159 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023250s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0134s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T06:47:02+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018596s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T07:01:14+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030672s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T07:15:10+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027390s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T07:29:14+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015409s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T07:39:37+08:00 ] 111.248.115.189 163mx03.mxmail.netease.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018929s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0076s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T07:43:37+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024805s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T07:57:42+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018832s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T08:11:57+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015844s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T08:26:02+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029693s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T08:40:27+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030775s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T08:54:35+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020780s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T09:08:29+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020938s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T09:22:44+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024906s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T09:34:10+08:00 ] 61.160.195.222 http://119.90.40.16:8090/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018908s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0270s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T09:36:41+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017970s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T10:05:02+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024846s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T10:19:18+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027810s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T10:33:19+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019782s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T10:47:46+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024818s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T11:01:55+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023760s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T11:15:59+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017818s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T11:19:17+08:00 ] 191.96.249.42 /nagiosxi/login.php?redirect=/nagiosxi/index.php0.000000&noauth=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025791s ]
+ERR: 无法加载控制器:Nagiosxi
+
+[ 2016-07-14T11:23:56+08:00 ] 169.54.244.89 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018879s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0261s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T11:29:40+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018902s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T11:43:45+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020700s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T11:46:08+08:00 ] 101.226.66.178 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019865s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0077s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T11:46:08+08:00 ] 101.226.51.229 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020740s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0125s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T11:46:09+08:00 ] 101.226.64.174 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024799s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T11:46:19+08:00 ] 202.115.92.68 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020846s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T11:57:43+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018892s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T12:11:23+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025847s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T12:25:03+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020823s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T12:27:40+08:00 ] 103.240.16.119 http://www.example.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019872s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0204s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T12:39:05+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018749s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T12:53:01+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025064s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T13:06:50+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017878s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T13:14:43+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015814s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0135s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T13:15:28+08:00 ] 121.42.183.123 search.yahoo.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019327s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T13:20:29+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034323s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T13:23:39+08:00 ] 191.96.249.42 /login.cgi?uri=/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023830s ]
+ERR: 无法加载控制器:Login.cgi
+
+[ 2016-07-14T13:29:51+08:00 ] 80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013954s ]
+
+[ 2016-07-14T13:30:32+08:00 ] 23.251.51.125 http://www.proxyjudge.info/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018827s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T13:30:33+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019017s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0212s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T13:30:43+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022908s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T13:30:44+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032187s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T13:34:34+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017268s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T14:08:28+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019964s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T14:09:53+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018903s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0222s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T14:23:07+08:00 ] 61.160.122.242 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018899s ]
+ERR: 无法加载控制器:Manager
+
+[ 2016-07-14T14:24:26+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018908s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0126s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T14:29:26+08:00 ] 69.30.252.245 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012010s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0107s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T14:39:33+08:00 ] 121.42.183.123 search.yahoo.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019806s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0259s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T14:53:15+08:00 ] 93.174.93.136 http://www.baidu.com/cache/global/img/gs.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012955s ]
+
+[ 2016-07-14T14:53:29+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025993s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T15:03:03+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019377s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0250s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T15:23:20+08:00 ] 40.114.254.126 /nagiosxi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035691s ]
+ERR: 无法加载控制器:Nagiosxi
+
+[ 2016-07-14T15:40:01+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033568s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T15:43:31+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021258s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0159s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T15:55:01+08:00 ] 23.251.51.125 http://www.proxy-listen.de/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030628s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T15:55:02+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020668s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0106s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T16:01:39+08:00 ] 220.132.81.117 smtp.mail.yahoo.com:25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016916s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0191s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T16:15:23+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016816s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T16:29:48+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023816s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T16:44:49+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021812s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T16:46:41+08:00 ] 101.226.68.215 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024830s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0144s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T16:46:57+08:00 ] 202.115.92.68 /Daixu/homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019832s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:00:02+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023917s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T17:14:42+08:00 ] 49.114.70.215 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015964s ]
+
+[ 2016-07-14T17:14:43+08:00 ] 49.114.70.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015111s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0199s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:14:44+08:00 ] 119.147.146.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025689s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:14:44+08:00 ] 180.153.214.199 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016907s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:14:46+08:00 ] 112.64.235.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018929s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:14:52+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022798s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T17:16:15+08:00 ] 49.114.70.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016997s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0185s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:16:24+08:00 ] 49.114.70.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018873s ]
+ERR: Think\Controller:article_today_select方法不存在！
+
+[ 2016-07-14T17:19:07+08:00 ] 49.114.70.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022122s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.356827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.356931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031802s ]
+
+[ 2016-07-14T17:30:21+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017159s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T17:42:02+08:00 ] 109.236.84.106 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.332679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.351858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010084s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-14T17:54:12+08:00 ] 23.251.51.125 http://domkrim.com/av.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023800s ]
+ERR: 无法加载控制器:Av.php
+
+[ 2016-07-14T17:54:14+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019637s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.331946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024011s ]
+
+[ 2016-07-14T17:59:19+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022773s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T18:13:55+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026788s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T18:29:17+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028359s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T18:40:59+08:00 ] 23.251.51.125 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018881s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018768s ]
+
+[ 2016-07-14T18:41:00+08:00 ] 23.251.51.125 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020961s ]
+
+[ 2016-07-14T18:43:56+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019387s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T18:44:30+08:00 ] 101.226.51.229 /Daixu/demo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023849s ]
+ERR: 非法操作:demo
+
+[ 2016-07-14T18:44:30+08:00 ] 101.226.93.234 /Daixu/demo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017315s ]
+ERR: 非法操作:demo
+
+[ 2016-07-14T18:44:30+08:00 ] 113.108.21.69 /Daixu/demo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024637s ]
+ERR: 非法操作:demo
+
+[ 2016-07-14T18:44:30+08:00 ] 101.207.20.190 /Daixu/demo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018815s ]
+ERR: 非法操作:demo
+
+[ 2016-07-14T18:44:31+08:00 ] 101.207.20.190 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.026088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026756s ]
+
+[ 2016-07-14T18:45:22+08:00 ] 111.13.93.245 /Daixu/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017890s ]
+
+[ 2016-07-14T18:45:27+08:00 ] 111.13.93.233 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029000s ]
+
+[ 2016-07-14T18:46:08+08:00 ] 101.207.20.190 /Daixu/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018792s ]
+
+[ 2016-07-14T18:46:09+08:00 ] 101.207.20.190 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012952s ]
+
+[ 2016-07-14T18:59:15+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024901s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T19:13:59+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019943s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T19:22:22+08:00 ] 37.75.133.226 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017778s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022802s ]
+
+[ 2016-07-14T19:25:03+08:00 ] 117.139.15.4 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032447s ]
+
+[ 2016-07-14T19:28:57+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024766s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T19:34:34+08:00 ] 23.251.51.125 http://www.luisaranguren.com/azenv.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020845s ]
+ERR: 无法加载控制器:Azenv.php
+
+[ 2016-07-14T19:34:36+08:00 ] 23.251.51.125 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023826s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.347299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.347412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030563s ]
+
+[ 2016-07-14T19:43:58+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024761s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T19:58:10+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021843s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T20:13:18+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024607s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T20:28:37+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026939s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T20:39:03+08:00 ] 69.30.196.194 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019946s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019100s ]
+
+[ 2016-07-14T20:43:15+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022074s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T20:51:38+08:00 ] 222.187.222.159 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019794s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-07-14T20:58:04+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021862s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T21:12:42+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017828s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T21:26:44+08:00 ] 111.13.93.224 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015104s ]
+
+[ 2016-07-14T21:27:28+08:00 ] 123.249.27.191 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022744s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T21:42:31+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027708s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T21:57:20+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019306s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T22:12:16+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023832s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T22:26:39+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018450s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T22:41:15+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030685s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T22:55:43+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019841s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T23:10:12+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024824s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T23:11:23+08:00 ] 185.49.14.190 http://testp4.pospr.waw.pl/testproxy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021819s ]
+ERR: 无法加载控制器:Testproxy.php
+
+[ 2016-07-14T23:20:41+08:00 ] 23.251.40.103 http://proxyjudge.us/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035404s ]
+SQL: SHOW COLUMNS FROM `tuser` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tuser` ORDER BY tuser_publish LIMIT 10   [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `tarticle` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tarticle` ORDER BY tarticle_continue desc LIMIT 10   [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026822s ]
+
+[ 2016-07-14T23:20:43+08:00 ] 23.251.40.103 www.alipay.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.316425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.316533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017924s ]
+
+[ 2016-07-14T23:21:15+08:00 ] 23.251.40.103 http://fr.cyberpods.net/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.365622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.365764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028844s ]
+
+[ 2016-07-14T23:21:16+08:00 ] 23.251.40.103 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.312315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027476s ]
+
+[ 2016-07-14T23:25:34+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019806s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T23:40:14+08:00 ] 123.249.27.193 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015929s ]
+ERR: 无法加载控制器:80
+
+[ 2016-07-14T23:54:17+08:00 ] 123.249.27.192 http://60.173.26.241:61254/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018830s ]
+ERR: 无法加载控制器:80
+

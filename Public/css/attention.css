@@ -1,0 +1,245 @@
+/*public*/
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*主体包裹层 begin */
+.wrap{
+    width: 1010px;
+    margin: 0 auto;
+    background: #E4E4E6;
+    padding:30px 0 50px 30px;
+    overflow: hidden;
+}
+/*顶部信息块 begin*/
+.top_person_info{
+    width:980px;
+    height:250px;
+    background: lightgreen;
+    background: url("http://121.42.165.45/Public/img/person_info_bg.jpg");
+    background-size: cover;
+}
+#head_img{
+    margin:30px 0 15px 45%;
+    width:100px;
+    height:100px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.person_some_info{
+    display: inline-block;
+    margin-left: 42%;
+    color: #51a47a;
+    padding:3px;
+    text-align: center;
+    background: rgba(255,255,255,.5);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.person_some_info>b{
+    font-size:25px;
+}
+.person_some_info>i{
+    margin-left: 10px;
+}
+.vip_icon{
+    display:inline-block;
+    width:25px;
+    height:21px;
+    background: url("http://121.42.165.45/Public/img/vip1.png");
+    background-size: cover;
+}
+.top_person_info>p{
+    margin-left: 42%;
+    margin-bottom: 20px;
+    color: #51a47a;
+    width:30%;
+    padding:5px;
+    background: rgba(255,255,255,.5);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+/*顶部信息块 end */
+
+/*主体左边内容块  begin*/
+.content_left{
+    width: 690px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom:30px;
+}
+.content_left>.all_attention {
+    height: 50px;
+    background: #fff;
+    padding-left: 35px;
+    line-height: 50px;
+    color: #51a47a;
+    font-size:20px;
+}
+
+/*左边关注信息块 begin */
+#have_attent {
+    background: #fff;
+    margin-top: 5px;
+    padding:40px 10px 40px 30px;
+}
+#have_attent>ul{
+    padding:0;
+    overflow: hidden;
+}
+#have_attent>ul>li{
+    width:280px;
+    height:160px;
+    list-style: none;
+    float: left;
+    padding:10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background: #F2F2F2;
+    overflow: hidden;
+}
+/*关注人信息块 begin*/
+.attent_person_info{
+    margin:0 0 0 120px;
+    padding-top: 20px;
+    height: 90px;
+    position: relative;
+}
+.attent_person_info>img {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left:-120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.attent_person_info .more_person_info{
+    font-size: 14px;
+}
+.more_person_info>b{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:90px;
+    vertical-align: top;
+    display: inline-block;
+}
+.attent_person_info .person_vip_icon{
+    display:inline-block;
+    width:15px;
+    height:14px;
+    background: url("http://121.42.165.45/Public/img/vip1.png");
+    background-size: cover;
+}
+.attent_person_info p{
+    /*清除默认样式*/
+    margin: 0;
+    padding:0;
+    margin-top:5px;
+    font-size:13px;
+    color: darkgray;
+}
+ .attent_person_info>p>.attent_symbol {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     background: url("http://121.42.165.45/Public/img/vip1.png");
+     background-size: cover;
+ }
+.attent_person_info .attent_person_description{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#have_attent .set_button{
+    display: inline-block;
+    width:80px;
+    height:30px;
+    line-height:30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border-top:2px solid gray;
+    color: darkgray;
+    font-size: 15px;
+    cursor: pointer;
+    background: #fff;
+}
+#have_attent .cancel_attent{
+    margin-left: 90px;
+}
+/*关注人信息块 end*/
+/*左边关注信息块 end */
+
+/*主体左边内容块  end */
+
+/*主体右边内容块 begin */
+.content_right{
+    width: 260px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-bottom:30px;
+    /*border:1px solid red;*/
+}
+
+.content_right_top{
+    width: 260px;
+    height: 50px;
+    background: #fff;
+}
+.content_right_top span{
+    display: block;
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #000;
+    font-size: 11px;
+}
+
+.content_right_top span>a>b{
+    font-size: 18px;
+}
+.content_right_top a:hover{
+    color: #51a47a;
+}
+
+/*右边选择列表块 begin */
+.content_right_list{
+    width: 260px;
+    height: 270px;
+    margin-top: 15px;
+    background: #fff;
+}
+.content_right_list ul{
+    padding:3px 0;
+}
+.content_right_list li{
+    width: 244px;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 8px;
+    text-align: center;
+    color: #5c5d5e;
+    font-size: 14px;
+    display: block;
+    margin-top: 2px;
+}
+.content_right_list li:hover{
+    color: #51a47a;
+    background: #e4e5e5;
+}
+/*右边选择列表块 end */
+/*主体右边内容块 end */
+
+/*主体包裹层 end */

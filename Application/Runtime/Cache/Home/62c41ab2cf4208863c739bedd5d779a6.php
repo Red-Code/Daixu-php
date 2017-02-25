@@ -1,0 +1,233 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="" content="">
+    <link rel="stylesheet" type="text/css" href="/Public/css/public.css">
+    <link rel="stylesheet" type="text/css" href="/Public/css/personal.css">
+    <title>个人中心-<?php echo ($user_info["user_name"]); ?></title>
+
+    <style type="text/css"></style>
+</head>
+<body>
+<!--头部导航栏-->
+<div class="title_whole">
+    <div class="title_body">
+        <img src="/Public/img/daixu_logo.png">
+        <div class="title_search">
+            <form>
+                <div><input type="text" placeholder="    搜索关键字"></div>
+            </form>
+        </div>
+        <a href="/Daixu">首页</a>
+        <a href="/Daixu/classify">分类</a>
+        <a href="/Daixu/end_article">完结</a>
+        <a href="/Daixu/game">游戏</a>
+        <a href="/Daixu/shopping">商城</a>
+        <a href="/Daixu/app">APP</a>
+        <div><a class="title_publish" href="/Daixu/publish"><p>发布</p></a></div>
+        <div id="title_login">
+            <img src="/Public/img/title_person.png">
+            <a href="/Daixu/view_login">登录</a>
+            <input value="<?php echo ($login_user_info["user_id"]); ?>" type="hidden">
+            <a class="title_register" href="/Daixu/view_register">注册</a>
+        </div>
+        <a href="/Daixu/notice" id="notice_news_num"><?php echo ($notice_news_num); ?></a>
+        <div id="title_personal">
+            <img src="/Public/img/title_person.png">
+            <a href="/Daixu/personal?user_id=<?php echo ($login_info["user_id"]); ?>" id="fixed_wid_username"><?php echo ($login_info["user_name"]); ?></a>
+            <a class="title_register" href="/Action/del_login">退出</a>
+        </div>
+    </div>
+</div>
+
+<!--主体-->
+<div class="wrap"><!-- 外层包裹层 begin -->
+    <div class="top_person_info"><!-- 顶部个人信息 begin -->
+        <div class="head_img"><img src="<?php echo ($user_info["user_img"]); ?>"></div>
+        <div class="top_person_info_content">
+            <a href=''><span id="person_id"><?php echo ($user_info["user_name"]); ?></span></a><a href=''><span id="person_grade"> &nbsp;&nbsp;Lv<?php echo ($user_info["user_rank"]); ?></span></a>&nbsp;<img src="/Public/img/vip1.png" id="VIP"><br><br><span id="brief_introduction">简介：<?php echo ($user_info["user_brief"]); ?></span>
+        </div>
+    </div><!-- 顶部个人信息 finish -->
+
+    <div class="content_left"><!-- content_left  begin--最左边内容-->
+        <div class="content_left_top"><!-- content_left_top  begin--最左边内容顶部-->
+            <ul id="ul_list">
+                <a href='/Daixu/personal?user_id=<?php echo ($user_info["user_id"]); ?>&&article_type=1'><li class="current_type">发出的贴</li></a>
+                <a href='/Daixu/personal?user_id=<?php echo ($user_info["user_id"]); ?>&&article_type=2'><li>已完结</li></a>
+                <a href='/Daixu/personal?user_id=<?php echo ($user_info["user_id"]); ?>&&article_type=4'><li>原创帖</li></a>
+                <a href='/Daixu/personal?user_id=<?php echo ($user_info["user_id"]); ?>&&article_type=3'><li>我回复的</li></a>
+                <!--<a href='/Daixu/Daixu/personal'><li>游戏瞬间</li></a>-->
+            </ul>
+        </div><!-- content_left_top  finish--最左边内容顶部-->
+
+        <?php if(is_array($join_select)): $i = 0; $__LIST__ = $join_select;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$join_select): $mod = ($i % 2 );++$i;?><div class="publish_content"><!-- publish_content  begin--读者发布内容块-->
+            <div class="publish_content_top">
+                <img src="<?php echo ($join_select["user_img"]); ?>"><a href="/Daixu/personal?user_id=<?php echo ($join_select["user_id"]); ?>"><h3><?php echo ($join_select["user_name"]); ?></h3></a>
+                <img src="/Public/img/add.jpg" class="add">
+            </div>
+            <div class="publish_content_center">
+                <!--<img src="<?php echo ($join_select["article_surface"]); ?>" class='publish_content_center_img'>
+
+                <a href="/Daixu/article?article_id=<?php echo ($join_select["article_id"]); ?>"><h1><?php echo ($join_select["article_name"]); ?></h1></a>
+                <p>
+                    <?php echo ($join_select["article_content"]); ?>
+                </p>-->
+                <img src="<?php echo ($join_select["article_surface"]); ?>" class='publish_content_center_img'>
+                <a href="/Daixu/article?article_id=<?php echo ($join_select["article_id"]); ?>"><h1><?php echo ($join_select["article_name"]); ?></h1></a>
+                <div class="article_description">
+                    <?php echo ($join_select["article_content"]); ?>
+                </div>
+            </div>
+            <div class="publish_content_bottom"><!-- 发布内容底部  begin -->
+                <div class="publish_content_bottom_left">
+                    <img src="/Public/img/classify_icon.jpg" class="classify_icon">
+                    <span><?php echo ($join_select["article_classify"]); ?></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="gray_color"><?php echo ($join_select["article_update"]); ?></span>
+                </div>
+                <div class="publish_content_bottom_right">
+                    <span class="gray_color" id="">赞（<i id=""><?php echo ($join_select["article_praise"]); ?></i>）</span><span class="gray_color" id="">回复（<i id=""><?php echo ($join_select["article_total"]); ?></i>）</span>
+                </div>
+            </div><!-- 发布内容底部  finish -->
+        </div><!-- publish_content  finish--读者发布内容块--><?php endforeach; endif; else: echo "" ;endif; ?>
+    </div><!-- content_left  finish--最左边内容-->
+
+    <div class="content_right"><!-- content_right  begin--最右边内容-->
+        <div class="content_right_top"><!-- content_right_top  begin--最右边内容顶部-->
+            <span><a href='#'><h2><?php echo ($user_info["user_join"]); ?></h2>参与</a></span>
+            <span><a href='#'><h2><?php echo ($user_info["user_follow"]); ?></h2>关注</a></span>
+            <span><a href='#'><h2><?php echo ($user_info["user_fans"]); ?></h2>粉丝</a></span>
+        </div><!-- content_right_top  finish--最右边内容顶部-->
+        <div class="content_right_list" id="content_right_list"><!-- content_right_list  begin--最右边列表内容-->
+            <ul>
+                <a href="/Daixu/personal?user_id=<?php echo ($user_info["user_id"]); ?>"><li class="this_li">主页</li></a>
+                <a href="/Daixu/data"><li>资料</li></a>
+                <a href="/Daixu/draft"><li>草稿</li></a>
+                <a href="/Daixu/collection"><li>收藏</li></a>
+                <a href="/Daixu/achievement"><li>成就</li></a>
+                <a href="/Daixu/set"><li>设置</li></a>
+                <a href="/Daixu/notice"><li>消息</li></a>
+            </ul>
+        </div><!-- content_right_list  finish--最右边列表内容-->
+        <div class="content_right_blockOne"><!-- content_right_grade  begin--最右边等级内容-->
+            <div class="blockOne_title"><!-- grade_title  begin--最右边等级标题内容-->
+                <p>等级信息</p>
+            </div><!-- grade_title  finish--最右边等级标题内容-->
+            <div class="blockOne_content"><!-- grade_content  begin--最右边等级信息内容-->
+                <!--<span id="present_grade">Lv2</span><progress value="20" max="100" id="experience_item"></progress><span id="next_grade">Lv3</span>-->
+                <br /><p>当前等级：<a href='#'><span>Lv<?php echo ($user_info["user_rank"]); ?></span></a></p>
+                <p>经验值：<a href='#'><span><?php echo ($user_info["user_exp"]); ?></span></a></p>
+                <p>距离升级需经验值：<a href='#'><span id="span_need_exp"><?php echo ($user_info["user_surplus_exp"]); ?></span></a></p>
+            </div><!-- grade_content  begin--最右边等级信息内容-->
+            <div class="blockOne_more"><!-- grade_more  begin--最右边等级更多信息信息内容-->
+                <p><a href="#">查看详情</a></p>
+            </div><!-- grade_more  finish--最右边等级更多信息信息内容-->
+
+        </div><!-- content_right_badge  finish--最右边徽章内容-->
+
+        <!--<div class="content_right_blockOne">&lt;!&ndash; content_right_badge  begin&#45;&#45;最右边徽章内容&ndash;&gt;-->
+            <!--<div class="blockOne_title">&lt;!&ndash; grade_title  begin&#45;&#45;最右边徽章标题内容&ndash;&gt;-->
+                <!--<p>徽章信息</p>-->
+            <!--</div>&lt;!&ndash; grade_title  finish&#45;&#45;最右边徽章标题内容&ndash;&gt;-->
+            <!--<div class="blockOne_content">&lt;!&ndash; grade_content  begin&#45;&#45;最右边徽章信息内容&ndash;&gt;-->
+                <!--<ul>-->
+                    <!--<li class="badge_img"></li>-->
+                    <!--<li class="badge_img"></li>-->
+                    <!--<li class="badge_img"></li>-->
+                    <!--<li class="badge_img"></li>-->
+                <!--</ul>-->
+            <!--</div>&lt;!&ndash; grade_content  finish&#45;&#45;最右边徽章信息内容&ndash;&gt;-->
+            <!--<div class="blockOne_more">&lt;!&ndash; grade_more  begin&#45;&#45;最右边徽章更多信息信息内容&ndash;&gt;-->
+                <!--<p><a href="#">全部徽章</a></p>-->
+            <!--</div>&lt;!&ndash; grade_more  finish&#45;&#45;最右边徽章更多信息信息内容&ndash;&gt;-->
+        <!--</div>&lt;!&ndash; content_right_grade  finish&#45;&#45;最右边等级内容&ndash;&gt;-->
+
+        <div class="content_right_blockTwo"><!-- content_right_blockTwo  begin--最右边排名内容-->
+            <div class="blockTwo_title"><!-- blockTwo_title  begin--最右边排名标题内容-->
+                <p>我的排名</p>
+                <!--<a href='#'><span id="achievement">成就</span></a>-->
+                <!--<a href='#'><span id="hot_degree">热度</span></a>-->
+            </div><!-- blockTwo_title  finish--最右边排名标题内容-->
+            <div class="blockTwo_content"><!-- blockTwo_content  begin--最右边排名信息内容-->
+                <p class="own_rank_info">（排名根据经验值来定，以下是您在平台中的总排名）</p>
+                <p class="own_rank">目前排名：第<?php echo ($select_uer_rank); ?>名</p>
+                <!--<ul>-->
+                    <!--<a href="#"><li class="">什么小故事<span id="click_num">12340</span></li></a>-->
+                    <!--<a href="#"><li class="">合同里的小故事<span id="click_num">11345</span></li></a>-->
+                <!--</ul>-->
+            </div><!-- blockTwo_content  finish--最右边排名信息内容-->
+
+        </div><!-- content_right_blockTwo  finish--最右边排名内容-->
+
+        <div class="content_right_blockTwo"><!-- content_right_blockTwo  begin--最右边跨屏浏览内容-->
+            <div class="blockTwo_title_scan"><!-- blockTwo_title  begin--最右边跨屏浏览标题内容-->
+                <p>跨屏浏览</p>
+            </div><!-- blockTwo_title  finish--最右边跨屏浏览标题内容-->
+            <div class="blockTwo_content"><!-- blockTwo_content  begin--最右边跨屏浏览信息内容-->
+                <div id="scan_img"><img src="/Public/img/scan_img.jpg"></div><p class="scan_to_phone">扫描二维码<br />可以用手机访问网页</p>
+            </div><!-- blockTwo_content  finish--最右边跨屏浏览信息内容-->
+
+        </div><!-- content_right_blockTwo  finish--最跨屏浏览排名内容-->
+    </div><!-- content_right  begin--最右边内容-->
+
+</div><!-- 外层包裹层 finish -->
+
+<div>
+
+    <div class="paging">
+        <p class="rows">
+            <?php echo ($obj_page); ?>
+        </p>
+    </div>
+</div>
+
+<script src="/Public/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="/Public/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/Public/js/public.js" type="text/javascript"></script>
+<script src="/Public/js/personal.js" type="text/javascript"></script>
+
+
+<script>
+    $(document).ready(function () {
+
+        li_array = document.getElementById('ul_list').getElementsByTagName('li');
+        function clear() {
+            for(var i=0;i<4;i++){
+                li_array[i].className = '';
+            }
+        }
+
+        switch("<?php echo ($article_type); ?>"){
+            case '1':
+                clear();
+                li_array[0].className = 'current_type';
+                break;
+            case '2':
+                clear();
+                li_array[1].className = 'current_type';
+                break;
+            case '4':
+                clear();
+                li_array[2].className = 'current_type';
+                break;
+            case '3':
+                clear();
+                li_array[3].className = 'current_type';
+                break;
+
+            default:
+                clear();
+                li_array[0].className = 'current_type';
+                break;
+        }
+    });
+    //根据访问者的id，决定是否显示右边扩展栏
+    $(document).ready(function() {
+        var demo = $.cookie('user_id');
+        if(demo == "<?php echo ($user_info["user_id"]); ?>"){
+            $('#content_right_list').css('display','block');
+        }
+    });
+</script>
+</body>
+</html>

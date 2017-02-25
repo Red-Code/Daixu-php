@@ -1,0 +1,437 @@
+/* public begin */
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* public finish */
+
+/* wrap begin 主体包裹层*/
+.wrap{
+	width: 1010px;
+	/*height: 1500px;*/
+	margin: 0 auto;
+	background: #E4E4E6;
+	padding:30px 0 100px 30px;
+	overflow: hidden;
+}
+
+/* 顶部个人信息 begin */
+.top_person_info{
+	width: 980px;
+	height: 250px;
+	background:green;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/top_person_info_bg.jpg);
+}
+.head_img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	background: blue;
+	position: absolute;
+	left: 420px;
+	top: 40px;
+}
+.head_img>img{
+	height: 100px;
+	width: 100px;
+}
+.top_person_info_content{
+	height: 80px;
+	width: 270px;
+	position: absolute;
+	left: 370px;
+	bottom: 20px;
+}
+#person_id{
+	
+	font-size: 24px;
+}
+.top_person_info_content span{
+	/* color: #fff; */
+     color: #51a47a;
+}
+.brief_introduction,.person_grade{
+	font-size: 14px;
+}
+.top_person_info_content #VIP{
+	width: 23px;
+	height: 18px;
+}
+/* 顶部个人信息 finish */
+
+/* content_left begin 页面主体左边内容区*/
+
+
+.content_left{
+	width: 690px;
+	/*height: 1500px;*/
+	float: left;
+	margin-top: 15px;
+}
+
+/*  begin--最左边内容顶部 */
+.content_left_top{
+	width: 690px;
+    height: 50px;
+    background:#fff;
+}
+.content_left_top li{
+	width: 82px;
+	line-height: 50px;
+	margin-left: 20px;
+	text-align: center;
+	color: #5c5d5e;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.current_classify{
+	color: #51a47a;
+	border-bottom: 2px solid #51a47a;
+}
+
+.content_left_top li:hover{
+	color: #51a47a;
+	border-bottom: 2px solid #51a47a;
+}
+/*  finish--最左边内容顶部 */
+
+/* 页面主体左边读者发布内容块  begin */
+.publish_content{
+	width: 690px;
+	height: 360px;
+	background:#fff;
+	margin-top: 15px;
+}
+.publish_content_top{
+	height: 40px;
+	width: 640px;
+	/*     border:1px solid red; */
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.publish_content_top h3:hover,.publish_content_center h1:hover,.publish_content_bottom_right span:hover{
+	color: #51a47a;
+	cursor: pointer;
+}
+.publish_content_top img{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+}
+.publish_content_top h3{
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	vertical-align: bottom;
+	display: block;
+	margin-top: 10px;
+	color: #A9A9A9;
+}
+.publish_content_top .add{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.publish_content_center{
+	height: 215px;
+	width: 640px;
+	/*     border:1px solid red; */
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.publish_content_center>img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.publish_content_center p{
+	margin-left: 20px;
+	margin-right: 20px;
+	display: block;
+	line-height: 35px;
+	color: #A9A9A9;
+	text-indent: 2em;
+}
+.publish_content_center>p>img {
+	width: 24px;
+	height: 24px;
+}
+.publish_content_center h1{
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+.publish_content_bottom{
+	height: 30px;
+	width: 640px;
+	/*     border:1px solid red; */
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.publish_content_bottom_left{
+	float: left;
+	/* 	border: 1px solid green; */
+}
+.publish_content_bottom_left .classify_icon{
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.publish_content_bottom span{
+	font-size: 12px;
+	/* 	color: #51A47B; */
+}
+.gray_color{
+	color: #A9A9A9;
+}
+.publish_content_bottom_right{
+	float: right;
+	/* 	border: 1px solid green; */
+}
+.publish_content_bottom_right span{
+	margin-right: 30px;
+}
+
+/* 页面主体左边读者发布内容块  finish */
+
+
+/* content_left finish 页面主体左边内容区*/
+
+/* content_right begin 页面主体右边内容区*/
+.content_right{
+	width: 260px;
+	/*height: 1500px;*/
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+
+/* content_right_top begin 页面主体右边顶部内容区*/
+.content_right_top{
+    width: 260px;
+    height: 50px;
+    background: #fff;
+}
+.content_right_top span{
+	display: block;
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #000;
+	font-size: 11px;
+}
+.content_right_top h2{
+	font-size: 18px;
+}
+.content_right_top a:hover{
+	color: #51a47a;
+}
+/* content_right_top finish 页面主体右边顶部内容区*/
+
+/* content_right_list begin 页面主体右边列表内容区*/
+.content_right_list{
+	width: 260px;
+	height: 270px;
+	margin-top: 15px;
+	background: #fff;
+}
+.content_right_list .this_li{
+	color: #51a47a;
+	background: #e4e5e5;
+}
+.content_right_list li{
+	width: 244px;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 8px;
+	text-align: center;
+	color: #5c5d5e;
+	font-size: 14px;
+	display: block;
+	margin-top: 2px;
+}
+.content_right_list .this_page{
+	color: #51a47a;
+	background: #e4e5e5;
+}
+.content_right_list li:hover{
+	color: #51a47a;
+	background: #e4e5e5;
+}
+/* content_right_list finish 页面主体右边列表内容区*/
+
+
+/* content_right_grade begin 页面主体右边各种块内容区*/
+.content_right_blockOne,.content_right_blockTwo{
+	width: 260px;
+	height: 160px;
+	background: #fff;
+	margin-top: 15px;
+}
+
+/* grade_title begin 页面主体右边块标题区*/
+.blockOne_title{    //等级，徽章标题区
+	width: 240px;
+	height: 22px;
+	margin: 3px auto;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #e4e5e5;
+}
+.blockTwo_title{  //排名标题区
+	width: 240px;
+	height: 40px;
+	margin: 3px auto;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #e4e5e5;
+}
+.blockTwo_title_scan{ //浏览标题区
+	width: 240px;
+	height: 25px;
+	margin: 3px auto;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #e4e5e5;
+}
+.blockTwo_title span{
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	color: #ccc;
+	margin-right: 8px;
+	padding-right: 10px;
+}
+.blockTwo_title #hot_degree{
+	border-right: 1px solid #51a47a;
+}
+/* grade_title finish 页面主体右边块标题区*/
+
+/* grade_content begin 页面主体右边块信息区*/
+.blockOne_content{
+	width: 240px;
+	height: 85px;
+	margin: 3px auto;
+	/* text-align: center; */
+	padding-top: 10px;
+	font-size: 12px;
+	border-bottom: 1px solid #e4e5e5;
+}
+#present_grade,#next_grade{
+	color: #fff;
+}
+#present_grade{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#next_grade{
+	margin-left: 10px;
+}
+.blockOne_content>span{
+	display: block;
+	width: 30px;
+	height: 15px;
+	background: #51a47a;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+}
+#experience_item{
+	float: left;
+	width: 120px;
+}
+.blockOne_content p{
+	margin-left: 20px;
+	line-height: 20px;
+	clear: both;
+}
+.blockOne_content .badge_img{
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+	border:1px solid #51a47a;
+	margin-right: 3px;
+	margin-left: 5px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.blockTwo_content{
+	width: 240px;
+	height: 85px;
+	margin: 3px auto;
+	/* text-align: center; */
+	padding-top: 10px;
+	font-size: 12px;
+	padding-left: 30px;
+}
+.blockTwo_content li{
+	float: none;
+	line-height: 40px;
+	list-style: decimal;
+	font-size: 12px;
+}
+.blockTwo_content li span{
+	float: right;
+	margin-right: 30px;
+}
+.blockTwo_content #scan_img{
+	width: 70px;
+	height: 70px;
+	margin-left: 60px;
+	margin-bottom: 6px;
+}
+/*.blockTwo_content p{*/
+/*margin-left: 60px;*/
+/*color: #ccc;*/
+/*}*/
+.blockTwo_content .own_rank_info{
+	width: 200px;
+	color: #ccc;
+}
+.blockTwo_content .own_rank{
+	margin-top: 15px;
+}
+/* grade_title finish 页面主体块等级信息区*/
+
+/* grade_title begin 页面主体右边块更多信息区*/
+.blockOne_more{
+	width: 240px;
+	height: 25px;
+	text-align: center;
+}
+.blockOne_more a{
+	color: #ccc;
+	font-size: 14px;
+}
+/* grade_title finish 页面主体右边块更多信息区*/
+
+/* content_right_grade finish 页面主体右边各种块内容区*/
+
+/* content_right finish 页面主体右边内容区*/
+
+/* wrap finish 主体包裹层*/
